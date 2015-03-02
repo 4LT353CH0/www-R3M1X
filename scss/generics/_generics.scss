@@ -1,0 +1,65 @@
+
+/*
+    Generics
+*/
+//floats
+body{
+  -webkit-font-smoothing: antialiased;
+}
+.lefteft{float:left;}
+.right{float:right;}
+.clearLeft{clear:left;}
+.clearRight{clear:right;}
+.clearboth{clear:both;float:none;}
+//visibles
+.hide{display:none;}
+.show{display:block;}
+.invisible{visibility:hidden;height:0;width:0;margin:0;padding:0;}
+//alignment
+.valign{vertical-align:middle;}
+.valign:before   {content:"";display:inline-block;height:100%;width:0;vertical-align:middle;}
+.textLeft{text-align: left;}
+.textRight{text-align: right;}
+.textCenter{text-align: center;}
+// *
+// * Baseline
+// *
+// * Common settings for this:
+// *
+// * 100% for 16px font and 24px baseline.
+// *
+// * 75% for 12px font and 18px baseline.
+// *
+// *
+$baseline: 100%;
+//out of context
+// Overlay
+.overlay {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  @extend .boxed;
+}
+#loader {
+    background-image: url("../img/animations/loader.gif");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 9999;
+}
+/*
+     /Generics
+*/
+
+
+
