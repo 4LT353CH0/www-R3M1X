@@ -4328,6 +4328,104 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/bower_components\/screwdefaultbuttons\/examples.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/screwdefaultbuttons\/examples.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/screwdefaultbuttons\/images\/checkbox.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10345,
+		"inputAbbreviatedPath": "\/bower_components\/screwdefaultbuttons\/images\/checkbox.jpg",
+		"outputAbbreviatedPath": "\/bower_components\/screwdefaultbuttons\/images\/checkbox.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bower_components\/screwdefaultbuttons\/images\/checkboxSmall.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4518,
+		"inputAbbreviatedPath": "\/bower_components\/screwdefaultbuttons\/images\/checkboxSmall.jpg",
+		"outputAbbreviatedPath": "\/bower_components\/screwdefaultbuttons\/images\/checkboxSmall.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bower_components\/screwdefaultbuttons\/images\/checkboxSmall_Blue.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8328,
+		"inputAbbreviatedPath": "\/bower_components\/screwdefaultbuttons\/images\/checkboxSmall_Blue.jpg",
+		"outputAbbreviatedPath": "\/bower_components\/screwdefaultbuttons\/images\/checkboxSmall_Blue.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bower_components\/screwdefaultbuttons\/images\/radio.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12230,
+		"inputAbbreviatedPath": "\/bower_components\/screwdefaultbuttons\/images\/radio.jpg",
+		"outputAbbreviatedPath": "\/bower_components\/screwdefaultbuttons\/images\/radio.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bower_components\/screwdefaultbuttons\/images\/radioSmall.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5103,
+		"inputAbbreviatedPath": "\/bower_components\/screwdefaultbuttons\/images\/radioSmall.jpg",
+		"outputAbbreviatedPath": "\/bower_components\/screwdefaultbuttons\/images\/radioSmall.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bower_components\/screwdefaultbuttons\/js\/jquery.screwdefaultbuttonsV2.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/screwdefaultbuttons\/js\/jquery.screwdefaultbuttonsV2.js",
+		"outputAbbreviatedPath": "\/bower_components\/screwdefaultbuttons\/js\/min\/jquery.screwdefaultbuttonsV2-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/screwdefaultbuttons\/js\/jquery.screwdefaultbuttonsV2.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/screwdefaultbuttons\/js\/jquery.screwdefaultbuttonsV2.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/screwdefaultbuttons\/js\/min\/jquery.screwdefaultbuttonsV2.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/screwdefaultbuttons\/ReadMe.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/screwdefaultbuttons\/ReadMe.md",
+		"outputAbbreviatedPath": "\/bower_components\/screwdefaultbuttons\/ReadMe.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/editframework.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -4369,15 +4467,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/detect\/mobile-detect.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -4842,6 +4931,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/scss\/components\/objects\/_forms.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/components\/objects\/_forms.sass",
+		"outputAbbreviatedPath": "\/scss\/components\/css\/_forms.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/scss\/components\/objects\/_shapes.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -4858,15 +4963,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/components\/objects\/_tooltip.scss": {
+	"\/scss\/components\/objects\/_tooltips.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/components\/objects\/_tooltip.scss",
-		"outputAbbreviatedPath": "\/scss\/components\/css\/_tooltip.css",
+		"inputAbbreviatedPath": "\/scss\/components\/objects\/_tooltips.scss",
+		"outputAbbreviatedPath": "\/scss\/components\/css\/_tooltips.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -5050,6 +5155,24 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/scss\/css\/_normalize-form.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/css\/_normalize-form.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/scss\/css\/normalize-form.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/css\/normalize-form.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/scss\/editframework.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -5123,6 +5246,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/starter\/_generics.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_generics.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/starter\/_normalize-forms.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/starter\/_normalize-forms.scss",
+		"outputAbbreviatedPath": "\/scss\/css\/_normalize-forms.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -5231,6 +5370,14 @@
 	],
 "lastSavedByUser": "Jarl Per Ivar Miailhe Helin",
 "manualImportLinks": {
+	"\/js\/scripts.js": [
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/bower_components\/screwdefaultbuttons\/js\/jquery.screwdefaultbuttonsV2.js",
+			"position": 0,
+			"type": 0
+			}
+		]
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",

@@ -18,7 +18,7 @@
 	<!-- media-queries.js (fallback) -->
 	<!--[if lt IE 9]>
 	<script src="js/min/contribs/respond-min.js"></script>
-	<script src="lib/REM-unit-polyfill/js/rem.min.js"></script>
+	<script src="js/min/contribs/rem-min.js"></script>
 	<![endif]-->
 	<!-- Modernizer no-[feature]-classes  -->
 	<script src="js/min/contribs/modernizr-min.js"></script>
@@ -350,16 +350,124 @@
 			</li>
 		</ul>
 	</article>
-	<footer>
-		<h1>Footer</h1>
-	</footer>
-	<script src="js/min/contribs/jquery-1.10.2.min.js"></script>
-	<script src="js/min/scripts-min.js"></script>
-	<!--[if lt IE 9]>
-	<script src="js/min/contribs/PIE-min.js"></script>
-    	<script src="js/min/contribs/rem-min.js"></script>
-    	<![endif]-->
-    	<script src="js/min/functions-min.js"></script>
+	<section class="container">
+		<h1>Form</h1>
+		<section class="row">
+			<form id="#" action="#" method="post" class="column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12">
+				<fieldset>
+					<div>
+						<p>
+							<span class="label"><span>Civilité</span><span class="required">*</span></span><br />
+							<label for="contactForm_civility_mister">
+								<input type="radio" value="mister" id="contactForm_civility_mister" name="civility" tabindex="1" required="required" checked="checked" />
+								M.
+							</label>
+							<label for="contactForm_civility_madame">
+								<input type="radio" value="madame" id="contactForm_civility_madame" name="civility" tabindex="2" />
+								Mme
+							</label>
+							<label for="contactForm_civility_lady">
+								<input type="radio" value="lady" id="contactForm_civility_lady" name="civility" tabindex="3"  />
+								Mlle
+							</label>
+						</p>
+					</div>
+					<div>
+						<p>
+							<label for="contactForm_familiy_name">
+								Nom<span class="required">*</span>
+								<input type="text" value="" id="contactForm_familiy_name" name="familiy_name" tabindex="4" placeholder="Nom" required="required" />
+							</label>
+						</p>
+						<p>
+							<label for="contactForm_first_name">
+								Prénom<span class="required">*</span>
+								<input type="text" value="" id="contactForm_first_name" name="first_name" tabindex="5" placeholder="Prénom" required="required" />
+							</label>
+						</p>
+						<p>
+							<label for="contactForm_age">
+								Age<input type="number" value="" id="contactForm_age" name="age" tabindex="5" placeholder="Age" required="required" />
+							</label>
 
-    </body>
-    </html>
+						</p>
+						<p>
+							<label for="contactForm_accept">
+								<input type="checkbox" value="" id="contactForm_accept" name="accept" tabindex="5" required="required" />
+								J'accepte les conditions générales de vente du site Internet
+							</label>
+						</p>
+					</div>
+					<div>
+						<p>
+							<label for="contactForm_email">Email<span class="required">*</span>
+								<input type="email" value="" id="contactForm_email" name="email" tabindex="6" placeholder="Email" required="required" />
+							</label>
+						</p>
+						<p>
+							<label for="contactForm_phone">Téléphone
+								<input type="tel" value="" id="contactForm_phone" name="phone" tabindex="7" required="required" placeholder="Téléphone" required="required" />
+							</label>
+						</p>
+						<p>
+							<label for="contactForm_website">Site Internet
+								<input type="url" value="" id="contactForm_website" name="website" tabindex="7" placeholder="Site Internet" required="required" />
+							</label>
+						</p>
+					</div>
+					<div>
+						<p>
+							<label for="contactForm_society">Société
+								<input type="text" value="" id="contactForm_society" name="society" tabindex="8" placeholder="Société" required="required" />
+							</label>
+						</p>
+						<p>
+							<label for="contactForm_function">Date d'entrée
+								<input type="date" value="" id="contactForm_function" name="function" tabindex="9" placeholder="Date d'entrée" required="required" />
+							</label>
+						</p>
+						<p>
+							<label for="contactForm_pwd">Mot de passe
+								<input type="password" value="" id="contactForm_pwd" name="pwd" tabindex="9" placeholder="Mot de passe" required="required" />
+							</label>
+						</p>
+					</div>
+					<div>
+						<p>
+							<label for="contactForm_subject">Vous souhaitez ?<span class="required">*</span></label>
+							<select tabindex="10" id="contactForm_subject" name="subject" class="select" required="required">
+								<option value="">Sélectionez une catégorie *</option>
+								<option value="0">Selectoption</option>
+								<option value="1">Selectoption</option>
+								<option value="2">Selectoption</option>
+							</select>
+						</p>
+					</div>
+					<div>
+						<p>
+							<label for="contactForm_message">Commentaires<span class="required">*</span></label>
+							<textarea onblur="fieldBlur(this);" onfocus="fieldFocus(this);" tabindex="11" rows="10" cols="5" id="contactForm_message" name="message" class="textarea" placeholder="Message" required="required"></textarea>
+						</p>
+						<p class="label_right">
+							<label for="contactForm_email_copy">
+								<input type="checkbox" checked="checked" value="" id="contactForm_email_copy" name="email_copy[]" tabindex="12" class="checkbox" />
+								Recevoir une copie de cet email à votre adresse</label>
+							</p>
+						</div>
+					</fieldset>
+					<p>
+						<input type="submit" value="Envoyer" />
+					</p>
+				</form>
+			</section>
+
+		</article>
+		<footer>
+			<h1>Footer</h1>
+		</footer>
+		<script src="js/min/contribs/jquery-1.10.2.min.js"></script>
+		<script src="js/min/scripts-min.js"></script>
+		<script src="js/min/functions-min.js"></script>
+
+	</body>
+	</html>

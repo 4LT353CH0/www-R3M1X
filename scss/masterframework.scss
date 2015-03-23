@@ -6,11 +6,13 @@
 @import "starter/mixins/mixins";
 @import "starter/generics";
 @import "starter/fonts";
+@import "starter/normalize-forms";
 // import custom components in constant evolution
 @import "components/colors/colors";
 @import "components/objects/shapes";
 @import "components/objects/buttons";
-@import "components/objects/tooltip";
+@import "components/objects/tooltips";
+@import "components/objects/forms";
 @import "components/sections/header";
 @import "components/sections/section";
 @import "components/sections/article";

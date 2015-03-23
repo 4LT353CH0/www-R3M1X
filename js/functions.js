@@ -24,8 +24,41 @@
 }());
 /** CUSTOM SCRIPTS **/
 $( document ).ready(function() {
-    console.log('jQuery is on!');
-});
+    //jQuery version
+    console.log("Jquery Version : "+jQuery.fn.jquery);
+    //Custom radio buttons
+    var radioButton = $('input[type="radio"]');
+    $(radioButton).each(function(){
+        $(this).wrap( "<span class='custom-radio'></span>" );
+        if($(this).is(':checked')){
+            $(this).parent().addClass("selected");
+        }
+    });
+    $(radioButton).click(function(){
+        if($(this).is(':checked')){
+            $(this).parent().addClass("selected");
+        }
+        $(radioButton).not(this).each(function(){
+            $(this).parent().removeClass("selected");
+        });
+    });//end function radio buttons
+    //Custom checkbox buttons
+    var checkboxButton = $('input[type="checkbox"]');
+    $(checkboxButton).each(function(){
+        $(this).wrap( "<span class='custom-checkbox'></span>" );
+        if($(this).is(':checked')){
+            $(this).parent().addClass("selected");
+        }
+    });
+    $(checkboxButton).click(function(){
+        if($(this).is(':checked')){
+            $(this).parent().addClass("selected");
+        }
+        $(checkboxButton).not(this).each(function(){
+            $(this).parent().removeClass("selected");
+        });
+    });//end function radio buttons
+});//end doc ready
 
 
 
