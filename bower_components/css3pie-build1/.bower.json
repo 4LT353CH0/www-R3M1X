@@ -1,0 +1,24 @@
+{
+  "name": "css3pie-build1",
+  "authors": [
+    "KIMDONGMIN <kdm3843@gmail.com>"
+  ],
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "css3pie"
+  ],
+  "license": "Apache2",
+  "homepage": "pagegig.com",
+  "_release": "51f75ca3e6",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "51f75ca3e6d6ffe37fbe49ec991851ccf616e2e8"
+  },
+  "_source": "git://github.com/candicom/css3pie-build1.git",
+  "_target": "*",
+  "_originalSource": "css3pie-build1",
+  "_direct": true
+}

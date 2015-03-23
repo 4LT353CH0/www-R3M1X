@@ -1,0 +1,15 @@
+{
+  "name": "css3pie-build1",
+  "version": "1.0.0",
+  "authors": [
+    "KIMDONGMIN <kdm3843@gmail.com>"
+  ],
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "css3pie"
+  ],
+  "license": "Apache2",
+  "homepage": "pagegig.com"
+}

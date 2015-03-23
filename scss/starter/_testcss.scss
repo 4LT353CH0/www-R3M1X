@@ -1,0 +1,225 @@
+// test CSS delete before development
+body{}
+h1, h2, h3, h4, h5, h6{text-align:center;}
+.triangle-up, .triangle-down, .triangle-left, .triangle-right, .square-box, .rectangle-box, .circle-text, .oval-text{color:$olive;}
+header, footer{background-color: $silver;color: $gray;text-align:center;}
+body{
+    .first {background-color: $lime;color:$olive;padding-top:15px;padding-bottom:15px;display:block;
+        .row {background-color: $olive;color:$lime;}
+    }
+    .second {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .third {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .fourth {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .fifth {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .sixth {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .seventh {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+     .row {background-color: $gray;color: $silver;}
+ }
+    }//body
+    @media (min-width: 768px) {
+     body{
+        .first {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+            .row {background-color: $gray;color: $silver;}
+        }
+        .second {background-color: $lime;color:$olive;padding-top:15px;padding-bottom:15px;display:block;
+            .row {background-color: $olive;color:$lime;}
+        }
+        .third {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+            .row {background-color: $gray;color: $silver;}
+        }
+        .fourth {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+            .row {background-color: $gray;color: $silver;}
+        }
+        .fifth {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+            .row {background-color: $gray;color: $silver;}
+        }
+        .sixth {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+            .row {background-color: $gray;color: $silver;}
+        }
+        .seventh {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+            .row {background-color: $gray;color: $silver;}
+        }
+    }//body
+}
+@media (min-width: 992px) {
+ body{
+    .first {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .second {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .third {background-color: $lime;color:$olive;padding-top:15px;padding-bottom:15px;display:block;
+        .row {background-color: $olive;color:$lime;}
+    }
+    .fourth {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .fifth {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .sixth {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .seventh {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    }//body
+}
+@media (min-width: 1200px) {
+ body{
+    .first {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .second {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .third {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .fourth {background-color: $lime;color:$olive;padding-top:15px;padding-bottom:15px;display:block;
+        .row {background-color: $olive;color:$lime;}
+    }
+    .fifth {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .sixth {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .seventh {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    }//body
+}
+@media (min-width: 1600px) {
+ body{
+    .first {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .second {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .third {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .fourth {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .fifth {background-color: $lime;color:$olive;padding-top:15px;padding-bottom:15px;display:block;
+        .row {background-color: $olive;color:$lime;}
+    }
+    .sixth {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .seventh {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    }//body
+}
+@media (min-width: 1900px) {
+ body{
+    .first {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .second {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .third {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .fourth {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .fifth {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .sixth {background-color: $lime;color:$olive;padding-top:15px;padding-bottom:15px;display:block;
+        .row {background-color: $olive;color:$lime;}
+    }
+    .seventh {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    }//body
+}
+@media (min-width: 2200px) {
+ body{
+    .first {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .second {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .third {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .fourth {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .fifth {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .sixth {background-color: $silver;color: $gray;padding-top:15px;padding-bottom:15px;display:none;
+        .row {background-color: $gray;color: $silver;}
+    }
+    .seventh {background-color: $lime;color:$olive;padding-top:15px;padding-bottom:15px;display:block;
+        .row {background-color: $olive;color:$lime;}
+    }
+    }//body
+}
+
+/*
+$aqua:  #7FDBFF;
+$blue:  #0074D9;
+$navy:  #001F3F;
+$teal:  #39CCCC;
+$green: #2ECC40;
+$olive: #3D9970;
+$lime:  #01FF70;
+
+// Warm
+
+$yellow:  #FFDC00;
+$orange:  #FF851B;
+$red:     #FF4136;
+$fuchsia: #F012BE;
+$purple:  #B10DC9;
+$maroon:  #85144B;
+
+// Gray Scale
+
+$white:  #fff;
+$silver: #ddd;
+$gray:   #aaa;
+$black:  #111;
+
+
+.bg-navy {    background-color: $navy; }
+.bg-blue {    background-color: $blue; }
+.bg-aqua {    background-color: $aqua; }
+.bg-teal {    background-color: $teal; }
+.bg-olive {   background-color: $olive; }
+.bg-green {   background-color: $green; }
+.bg-lime {    background-color: $lime; }
+.bg-yellow {  background-color: $yellow; }
+.bg-orange {  background-color: $orange; }
+.bg-red {     background-color: $red; }
+.bg-fuchsia { background-color: $fuchsia; }
+.bg-purple {  background-color: $purple; }
+.bg-maroon {  background-color: $maroon; }
+.bg-white {   background-color: $white; }
+.bg-gray {    background-color: $gray; }
+.bg-silver {  background-color: $silver; }
+.bg-black {   background-color: $black; }
+
+
+*/

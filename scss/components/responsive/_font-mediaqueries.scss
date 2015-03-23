@@ -1,0 +1,44 @@
+//font media queries
+@media (min-width: 768px) {
+    body{font-size:100%;line-height:125%;}
+}
+@media (min-width: 992px) {
+    body{font-size:100%;line-height:125%;}
+}
+@media (min-width: 1200px) {
+    body{font-size:125%;line-height:115%;}
+    h1 {line-height:125%;}
+    h2 {line-height:125%;}
+    h3 {line-height:125%;}
+    h4 {line-height:125%;}
+    h5 {line-height:125%;}
+    h6{line-height:145%;}
+}
+@media (min-width: 1600px) {
+    body{font-size:175%;line-height:115%;}
+    h1 {line-height:125%;}
+    h2 {line-height:125%;}
+    h3 {line-height:125%;}
+    h4 {line-height:125%;}
+    h5 {line-height:125%;}
+    h6{line-height:145%;}
+}
+@media (min-width: 1900px) {
+    body{font-size:200%;line-height:125%;}
+    h1 {line-height:125%;}
+    h2 {line-height:125%;}
+    h3 {line-height:125%;}
+    h4 {line-height:125%;}
+    h5 {line-height:125%;}
+    h6{line-height:125%;}
+}
+@media (min-width: 2200px) {
+    body{font-size:250%;line-height:125%;}
+    h1 {line-height:150%;}
+    h2 {line-height:150%;}
+    h3 {line-height:150%;}
+    h4 {line-height:150%;}
+    h5 {line-height:150%;}
+    h6{line-height:150%;}
+}
+
