@@ -1,0 +1,43 @@
+//font media queries
+@media (min-width: 768px) {
+}//@media
+@media (min-width: 992px) {
+    /*
+    Generic Styling, for Desktops/Laptops
+    */
+    table, thead, tbody, th, td, tr {
+      display: initial;
+      position:static;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    tr{position:static;display:table-row;
+        td, th {
+            padding: 6px;
+            border: 1px solid #ccc;
+            text-align: left;
+            display: table-cell;
+            &:before{display:none;}
+        }
+        th {
+            background: #333;
+            color: white;
+            font-weight: bold;
+        }
+            }//tr
+            thead tr{display:table-row;position:static;
+                th{}
+            }//thead tr
+    }//table
+
+  }//@media
+  @media (min-width: 1200px) {
+}//@media
+@media (min-width: 1600px) {
+}//@media
+@media (min-width: 1900px) {
+}//@media
+@media (min-width: 2200px) {
+}//@media
+

@@ -50,6 +50,18 @@
 </head>
 
 <body><!--[if lt IE 7]><p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+	<div class="overlayall hide">
+		<div id="loader"></div>
+	</div>
+	<div class="overlayed">
+		<div class="first">Mobile First</div>
+		<div class="second">>=768px</div>
+		<div class="third">>=992px</div>
+		<div class="fourth">>=1200</div>
+		<div class="fifth">>=1600</div>
+		<div class="sixth">>=1900</div>
+		<div class="seventh">>=2200</div>
+	</div>
 	<header>
 		<h1>Header</h1>
 	</header>
@@ -62,18 +74,18 @@
 		<h5>Default Mobile First</h5>
 		<h6>Default Mobile First</h6>
 		<div class="row"><!--row-->
-			<div class="column-xs-1">.col-xs-1</div>
-			<div class="column-xs-1">.col-xs-1</div>
-			<div class="column-xs-1">.col-xs-1</div>
-			<div class="column-xs-1">.col-xs-1</div>
-			<div class="column-xs-1">.col-xs-1</div>
-			<div class="column-xs-1">.col-xs-1</div>
-			<div class="column-xs-1">.col-xs-1</div>
-			<div class="column-xs-1">.col-xs-1</div>
-			<div class="column-xs-1">.col-xs-1</div>
-			<div class="column-xs-1">.col-xs-1</div>
-			<div class="column-xs-1">.col-xs-1</div>
-			<div class="column-xs-1">.col-xs-1</div>
+			<div class="column-xs-12">.col-xs-1</div>
+			<div class="column-xs-12">.col-xs-1</div>
+			<div class="column-xs-12">.col-xs-1</div>
+			<div class="column-xs-12">.col-xs-1</div>
+			<div class="column-xs-12">.col-xs-1</div>
+			<div class="column-xs-12">.col-xs-1</div>
+			<div class="column-xs-12">.col-xs-1</div>
+			<div class="column-xs-12">.col-xs-1</div>
+			<div class="column-xs-12">.col-xs-1</div>
+			<div class="column-xs-12">.col-xs-1</div>
+			<div class="column-xs-12">.col-xs-1</div>
+			<div class="column-xs-12">.col-xs-1</div>
 		</div>
 		<div class="row"><!--row-->
 			<div class="column-xs-8">.col-xs-8</div>
@@ -304,28 +316,28 @@
 		<ul class="row">
 			<li class="column-xs-4 column-sm-4 column-md-4 column-lg-4 column-xl-4 column-xxl-4 column-tv-4">
 				<ul class="row">
-					<li class="column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><h3>Shapes</h3></li>
-					<li class="column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><h4>Triangles</h4></li>
-					<li class="column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><div class="triangle-down"></div></li>
-					<li class="column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><div class="triangle-left"></div></li>
-					<li class="column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><div class="triangle-right"></div></li>
-					<li class="column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><div class="triangle-up"></div></li>
-					<li class="column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><div class="triangle-bottom-right"></div></li>
-					<li class="column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><div class="triangle-bottom-left"></div></li>
-					<li class="column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><div class="triangle-top-left"></div></li>
-					<li class="column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><div class="triangle-top-right"></div></li>
+					<li class="column-xs-122 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><h3>Shapes</h3></li>
+					<li class="column-xs-122 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><h4>Triangles</h4></li>
+					<li class="column-xs-122 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><div class="triangle-down"></div></li>
+					<li class="column-xs-122 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><div class="triangle-left"></div></li>
+					<li class="column-xs-122 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><div class="triangle-right"></div></li>
+					<li class="column-xs-122 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><div class="triangle-up"></div></li>
+					<li class="column-xs-122 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><div class="triangle-bottom-right"></div></li>
+					<li class="column-xs-122 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><div class="triangle-bottom-left"></div></li>
+					<li class="column-xs-122 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><div class="triangle-top-left"></div></li>
+					<li class="column-xs-122 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><div class="triangle-top-right"></div></li>
 				</ul>
 			</li>
 			<li class="column-xs-4 column-sm-4 column-md-4 column-lg-4 column-xl-4 column-xxl-4 column-tv-4">
 				<ul class="row">
-					<li class="column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><h3>Shapes</h3></li>
-					<li class="column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><h4>Foursides</h4></li>
-					<li class="column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12">
+					<li class="column-xs-122 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><h3>Shapes</h3></li>
+					<li class="column-xs-122 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><h4>Foursides</h4></li>
+					<li class="column-xs-122 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12">
 						<div class='square-box'>
 							<div class='square-content'><div><span>I'm a responsive CSS square with centered content!</span></div></div>
 						</div>
 					</li>
-					<li class="column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12">
+					<li class="column-xs-122 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12">
 						<div class='rectangle-box'>
 							<div class='rectangle-content'><div><span>I'm a responsive CSS rectangle! Resize the window to see how I keep my aspect ratio.</span></div></div>
 						</div>
@@ -334,14 +346,14 @@
 			</li>
 			<li class="column-xs-4 column-sm-4 column-md-4 column-lg-4 column-xl-4 column-xxl-4 column-tv-4">
 				<ul class="row">
-					<li class="column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><h3>Shapes</h3></li>
-					<li class="column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><h4>Circles</h4></li>
-					<li class="column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12">
+					<li class="column-xs-122 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><h3>Shapes</h3></li>
+					<li class="column-xs-122 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><h4>Circles</h4></li>
+					<li class="column-xs-122 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12">
 						<div class="circle-text">
 							<div><span>I'm a Circle!</span></div>
 						</div>
 					</li>
-					<li class="column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12">
+					<li class="column-xs-122 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12">
 						<div class="oval-text">
 							<div><span>I'm an Oval!</span></div>
 						</div>
@@ -350,90 +362,63 @@
 			</li>
 		</ul>
 	</article>
-	<section class="container">
+	<article class="container">
 		<h1>Form</h1>
 		<section class="row">
-			<form id="#" action="#" method="post" class="column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12">
-				<fieldset>
-					<div>
-						<p>
-							<span class="label"><span>Civilité</span><span class="required">*</span></span><br />
-							<label for="contactForm_civility_mister">
-								<input type="radio" value="mister" id="contactForm_civility_mister" name="civility" tabindex="1" required="required" checked="checked" />
-								M.
-							</label>
-							<label for="contactForm_civility_madame">
-								<input type="radio" value="madame" id="contactForm_civility_madame" name="civility" tabindex="2" />
-								Mme
-							</label>
-							<label for="contactForm_civility_lady">
-								<input type="radio" value="lady" id="contactForm_civility_lady" name="civility" tabindex="3"  />
-								Mlle
-							</label>
-						</p>
+			<form id="#" action="#" method="post" class="column-xs-122 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12">
+				<fieldset class="row">
+					<div class="column-xs-122 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12">
+						<span class="label"><span>Civilité</span><span class="required">*</span></span>
+						<label for="contactForm_civility_mister">
+							<input type="radio" value="mister" id="contactForm_civility_mister" name="civility" tabindex="1" required="required" checked="checked" />
+							M.
+						</label>
+						<label for="contactForm_civility_madame">
+							<input type="radio" value="madame" id="contactForm_civility_madame" name="civility" tabindex="2" />
+							Mme
+						</label>
+						<label for="contactForm_civility_lady">
+							<input type="radio" value="lady" id="contactForm_civility_lady" name="civility" tabindex="3"  />
+							Mlle
+						</label>
 					</div>
-					<div>
-						<p>
-							<label for="contactForm_familiy_name">
-								Nom<span class="required">*</span>
-								<input type="text" value="" id="contactForm_familiy_name" name="familiy_name" tabindex="4" placeholder="Nom" required="required" />
-							</label>
-						</p>
-						<p>
-							<label for="contactForm_first_name">
-								Prénom<span class="required">*</span>
-								<input type="text" value="" id="contactForm_first_name" name="first_name" tabindex="5" placeholder="Prénom" required="required" />
-							</label>
-						</p>
-						<p>
-							<label for="contactForm_age">
-								Age<input type="number" value="" id="contactForm_age" name="age" tabindex="5" placeholder="Age" required="required" />
-							</label>
-
-						</p>
-						<p>
-							<label for="contactForm_accept">
-								<input type="checkbox" value="" id="contactForm_accept" name="accept" tabindex="5" required="required" />
-								J'accepte les conditions générales de vente du site Internet
-							</label>
-						</p>
+					<div class="column-xs-122 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12">
+						<label for="contactForm_familiy_name">
+							Nom<span class="required">*</span>
+							<input type="text" value="" id="contactForm_familiy_name" name="familiy_name" tabindex="4" placeholder="Nom" required="required" />
+						</label>
+						<label for="contactForm_first_name">
+							Prénom<span class="required">*</span>
+							<input type="text" value="" id="contactForm_first_name" name="first_name" tabindex="5" placeholder="Prénom" required="required" />
+						</label>
+						<label for="contactForm_age">
+							Age<input type="number" value="" id="contactForm_age" name="age" tabindex="5" placeholder="Age" required="required" />
+						</label>
+						<label for="contactForm_accept">
+							<input type="checkbox" value="" id="contactForm_accept" name="accept" tabindex="5" required="required" />
+							J'accepte les conditions générales de vente du site Internet
+						</label>
 					</div>
-					<div>
-						<p>
-							<label for="contactForm_email">Email<span class="required">*</span>
-								<input type="email" value="" id="contactForm_email" name="email" tabindex="6" placeholder="Email" required="required" />
-							</label>
-						</p>
-						<p>
-							<label for="contactForm_phone">Téléphone
-								<input type="tel" value="" id="contactForm_phone" name="phone" tabindex="7" required="required" placeholder="Téléphone" required="required" />
-							</label>
-						</p>
-						<p>
-							<label for="contactForm_website">Site Internet
-								<input type="url" value="" id="contactForm_website" name="website" tabindex="7" placeholder="Site Internet" required="required" />
-							</label>
-						</p>
-					</div>
-					<div>
-						<p>
-							<label for="contactForm_society">Société
-								<input type="text" value="" id="contactForm_society" name="society" tabindex="8" placeholder="Société" required="required" />
-							</label>
-						</p>
-						<p>
-							<label for="contactForm_function">Date d'entrée
-								<input type="date" value="" id="contactForm_function" name="function" tabindex="9" placeholder="Date d'entrée" required="required" />
-							</label>
-						</p>
-						<p>
-							<label for="contactForm_pwd">Mot de passe
-								<input type="password" value="" id="contactForm_pwd" name="pwd" tabindex="9" placeholder="Mot de passe" required="required" />
-							</label>
-						</p>
-					</div>
-					<div>
-						<p>
+					<div class="column-xs-122 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12">
+						<label for="contactForm_email">Email<span class="required">*</span>
+							<input type="email" value="" id="contactForm_email" name="email" tabindex="6" placeholder="Email" required="required" />
+						</label>
+						<label for="contactForm_phone">Téléphone
+							<input type="tel" value="" id="contactForm_phone" name="phone" tabindex="7" required="required" placeholder="Téléphone" required="required" />
+						</label>
+						<label for="contactForm_website">Site Internet
+							<input type="url" value="" id="contactForm_website" name="website" tabindex="7" placeholder="Site Internet" required="required" />
+						</label>
+						<label for="contactForm_society">Société
+							<input type="text" value="" id="contactForm_society" name="society" tabindex="8" placeholder="Société" required="required" />
+						</label>
+						<label for="contactForm_function">Date d'entrée
+							<input type="date" value="" id="contactForm_function" name="function" tabindex="9" placeholder="Date d'entrée" required="required" />
+						</label>
+						<label for="contactForm_pwd">Mot de passe
+							<input type="password" value="" id="contactForm_pwd" name="pwd" tabindex="9" placeholder="Mot de passe" required="required" />
+						</label>
+						<div class="column-xs-122 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12">
 							<label for="contactForm_subject">Vous souhaitez ?<span class="required">*</span></label>
 							<select tabindex="10" id="contactForm_subject" name="subject" class="select" required="required">
 								<option value="">Sélectionez une catégorie *</option>
@@ -441,33 +426,113 @@
 								<option value="1">Selectoption</option>
 								<option value="2">Selectoption</option>
 							</select>
-						</p>
-					</div>
-					<div>
-						<p>
-							<label for="contactForm_message">Commentaires<span class="required">*</span></label>
-							<textarea onblur="fieldBlur(this);" onfocus="fieldFocus(this);" tabindex="11" rows="10" cols="5" id="contactForm_message" name="message" class="textarea" placeholder="Message" required="required"></textarea>
-						</p>
-						<p class="label_right">
-							<label for="contactForm_email_copy">
-								<input type="checkbox" checked="checked" value="" id="contactForm_email_copy" name="email_copy[]" tabindex="12" class="checkbox" />
-								Recevoir une copie de cet email à votre adresse</label>
-							</p>
 						</div>
-					</fieldset>
-					<p>
-						<input type="submit" value="Envoyer" />
-					</p>
-				</form>
-			</section>
+					</div>
+					<div class="column-xs-122 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12">
+						<label for="contactForm_message">Commentaires<span class="required">*</span>
+						</label>
+						<textarea onblur="fieldBlur(this);" onfocus="fieldFocus(this);" tabindex="11" rows="10" cols="5" id="contactForm_message" name="message" class="textarea" placeholder="Message" required="required"></textarea>
+						<label for="contactForm_email_copy">
+							<input type="checkbox" checked="checked" value="" id="contactForm_email_copy" name="email_copy[]" tabindex="12" class="checkbox" />
+							Recevoir une copie de cet email à votre adresse
+						</label>
+					</div>
+				</fieldset>
+				<div class="column-xs-122 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12">
+					<input type="submit" value="Envoyer" />
+				</div>
+			</form>
+		</section>
+	</article>
+	<article class="container">
+		<h1>Tables</h1>
+		<section class="row">
+			<table class="column-xs-122 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12">
+				<thead>
+					<tr>
+						<th>First Name</th>
+						<th>Last Name</th>
+						<th>Job Title</th>
+						<th>Favorite Color</th>
+						<th>Wars or Trek?</th>
+						<th>Porn Name</th>
+						<th>Date of Birth</th>
+						<th>Dream Vacation City</th>
+						<th>GPA</th>
+						<th>Arbitrary Data</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>James</td>
+						<td>Matman</td>
+						<td>Chief Sandwich Eater</td>
+						<td>Lettuce Green</td>
+						<td>Trek</td>
+						<td>Digby Green</td>
+						<td>January 13, 1979</td>
+						<td>Gotham City</td>
+						<td>3.1</td>
+						<td>RBX-12</td>
+					</tr>
+					<tr>
+						<td>The</td>
+						<td>Tick</td>
+						<td>Crimefighter Sorta</td>
+						<td>Blue</td>
+						<td>Wars</td>
+						<td>John Smith</td>
+						<td>July 19, 1968</td>
+						<td>Athens</td>
+						<td>N/A</td>
+						<td>Edlund, Ben (July 1996).</td>
+					</tr>
+					<tr>
+						<td>Jokey</td>
+						<td>Smurf</td>
+						<td>Giving Exploding Presents</td>
+						<td>Smurflow</td>
+						<td>Smurf</td>
+						<td>Smurflane Smurfmutt</td>
+						<td>Smurfuary Smurfteenth, 1945</td>
+						<td>New Smurf City</td>
+						<td>4.Smurf</td>
+						<td>One</td>
+					</tr>
+					<tr>
+						<td>Cindy</td>
+						<td>Beyler</td>
+						<td>Sales Representative</td>
+						<td>Red</td>
+						<td>Wars</td>
+						<td>Lori Quivey</td>
+						<td>July 5, 1956</td>
+						<td>Paris</td>
+						<td>3.4</td>
+						<td>3451</td>
+					</tr>
+					<tr>
+						<td>Captain</td>
+						<td>Cool</td>
+						<td>Tree Crusher</td>
+						<td>Blue</td>
+						<td>Wars</td>
+						<td>Steve 42nd</td>
+						<td>December 13, 1982</td>
+						<td>Las Vegas</td>
+						<td>1.9</td>
+						<td>Under the couch</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+	</article>
+	<footer>
+		<h1>Footer</h1>
+	</footer>
+	<script src="js/min/contribs/jquery-1.10.2.min.js"></script>
+	<script src="js/min/scripts-min.js"></script>
+	<script src="js/min/functions-min.js"></script>
 
-		</article>
-		<footer>
-			<h1>Footer</h1>
-		</footer>
-		<script src="js/min/contribs/jquery-1.10.2.min.js"></script>
-		<script src="js/min/scripts-min.js"></script>
-		<script src="js/min/functions-min.js"></script>
-
-	</body>
-	</html>
+</body>
+</html>

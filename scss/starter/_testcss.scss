@@ -1,8 +1,64 @@
 // test CSS delete before development
-body{}
 h1, h2, h3, h4, h5, h6{text-align:center;}
 .triangle-up, .triangle-down, .triangle-left, .triangle-right, .square-box, .rectangle-box, .circle-text, .oval-text{color:$olive;}
 header, footer{background-color: $silver;color: $gray;text-align:center;}
+.overlayed *{padding:1rem;}
+.overlayed .first{display:block;}
+@media (min-width: 768px) {
+    .overlayed .first{display:none;}
+    .overlayed .second{display:block;}
+    .overlayed .third{display:none;}
+    .overlayed .fourth{display:none;}
+    .overlayed .fifth{display:none;}
+    .overlayed .sixth{display:none;}
+    .overlayed .sevent{display:none;}
+}
+@media (min-width: 992px) {
+    .overlayed .first{display:none;}
+    .overlayed .second{display:none;}
+    .overlayed .third{display:block;}
+    .overlayed .fourth{display:none;}
+    .overlayed .fifth{display:none;}
+    .overlayed .sixth{display:none;}
+    .overlayed .sevent{display:none;}
+}
+@media (min-width: 1200px) {
+    .overlayed .first{display:none;}
+    .overlayed .second{display:none;}
+    .overlayed .third{display:none;}
+    .overlayed .fourth{display:block;}
+    .overlayed .fifth{display:none;}
+    .overlayed .sixth{display:none;}
+    .overlayed .sevent{display:none;}
+}
+@media (min-width: 1600px) {
+    .overlayed .first{display:none;}
+    .overlayed .second{display:none;}
+    .overlayed .third{display:none;}
+    .overlayed .fourth{display:none;}
+    .overlayed .fifth{display:block;}
+    .overlayed .sixth{display:none;}
+    .overlayed .sevent{display:none;}
+}
+@media (min-width: 1900px) {
+    .overlayed .first{display:none;}
+    .overlayed .second{display:none;}
+    .overlayed .third{display:none;}
+    .overlayed .fourth{display:none;}
+    .overlayed .fifth{display:none;}
+    .overlayed .sixth{display:block;}
+    .overlayed .sevent{display:none;}
+}
+
+@media (min-width: 2200px) {
+    .overlayed .first{display:none;}
+    .overlayed .second{display:none;}
+    .overlayed .third{display:none;}
+    .overlayed .fourth{display:none;}
+    .overlayed .fifth{display:none;}
+    .overlayed .sixth{display:none;}
+    .overlayed .seventh{display:block;}
+}
 body{
     .first {background-color: $lime;color:$olive;padding-top:15px;padding-bottom:15px;display:block;
         .row {background-color: $olive;color:$lime;}

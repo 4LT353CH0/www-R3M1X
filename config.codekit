@@ -4610,6 +4610,50 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/medias\/images\/bitmaps\/backgrounds\/overlay-100-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 925,
+		"inputAbbreviatedPath": "\/medias\/images\/bitmaps\/backgrounds\/overlay-100-white.png",
+		"outputAbbreviatedPath": "\/medias\/images\/bitmaps\/backgrounds\/overlay-100-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/medias\/images\/bitmaps\/backgrounds\/overlay-25-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 926,
+		"inputAbbreviatedPath": "\/medias\/images\/bitmaps\/backgrounds\/overlay-25-white.png",
+		"outputAbbreviatedPath": "\/medias\/images\/bitmaps\/backgrounds\/overlay-25-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/medias\/images\/bitmaps\/backgrounds\/overlay-50-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 926,
+		"inputAbbreviatedPath": "\/medias\/images\/bitmaps\/backgrounds\/overlay-50-white.png",
+		"outputAbbreviatedPath": "\/medias\/images\/bitmaps\/backgrounds\/overlay-50-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/medias\/images\/bitmaps\/backgrounds\/overlay-90-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 926,
+		"inputAbbreviatedPath": "\/medias\/images\/bitmaps\/backgrounds\/overlay-90-white.png",
+		"outputAbbreviatedPath": "\/medias\/images\/bitmaps\/backgrounds\/overlay-90-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/medias\/images\/bitmaps\/favicons\/apple-touch-icon-114x114.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4830,6 +4874,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/medias\/images\/bitmaps\/sprites\/form\/radio-sprite-1200.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5539,
+		"inputAbbreviatedPath": "\/medias\/images\/bitmaps\/sprites\/form\/radio-sprite-1200.png",
+		"outputAbbreviatedPath": "\/medias\/images\/bitmaps\/sprites\/form\/radio-sprite-1200.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/medias\/images\/bitmaps\/sprites\/form\/radio-sprite-1600.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12363,
+		"inputAbbreviatedPath": "\/medias\/images\/bitmaps\/sprites\/form\/radio-sprite-1600.png",
+		"outputAbbreviatedPath": "\/medias\/images\/bitmaps\/sprites\/form\/radio-sprite-1600.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/medias\/images\/bitmaps\/sprites\/form\/radio-sprite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4358,
+		"inputAbbreviatedPath": "\/medias\/images\/bitmaps\/sprites\/form\/radio-sprite.png",
+		"outputAbbreviatedPath": "\/medias\/images\/bitmaps\/sprites\/form\/radio-sprite.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/README.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -4931,6 +5008,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/scss\/components\/objects\/_customRadioCheckbox.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/components\/objects\/_customRadioCheckbox.scss",
+		"outputAbbreviatedPath": "\/scss\/components\/css\/_customRadioCheckbox.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/components\/objects\/_forms.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -4946,6 +5039,22 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": false
+		},
+	"\/scss\/components\/objects\/_overlays.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/components\/objects\/_overlays.scss",
+		"outputAbbreviatedPath": "\/scss\/components\/css\/_overlays.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
 	"\/scss\/components\/objects\/_shapes.scss": {
 		"createSourceMap": 0,
@@ -4995,6 +5104,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/scss\/components\/responsive\/_form-mediaqueries.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/components\/responsive\/_form-mediaqueries.scss",
+		"outputAbbreviatedPath": "\/scss\/components\/css\/_form-mediaqueries.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/components\/responsive\/_grid-mediaqueries.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -5020,6 +5145,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/components\/responsive\/_grid-system.scss",
 		"outputAbbreviatedPath": "\/scss\/components\/css\/_grid-system.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/components\/responsive\/_table-mediaqueries.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/components\/responsive\/_table-mediaqueries.scss",
+		"outputAbbreviatedPath": "\/scss\/components\/css\/_table-mediaqueries.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -5262,6 +5403,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/starter\/_normalize-forms.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_normalize-forms.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/starter\/_normalize-tables.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/starter\/_normalize-tables.scss",
+		"outputAbbreviatedPath": "\/scss\/css\/_normalize-tables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

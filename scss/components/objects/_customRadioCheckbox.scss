@@ -1,0 +1,10 @@
+//Customize radio buttons
+label {
+  .custom-radio{background: $lime;display:inline-block;width:1rem;height:1rem;overflow:hidden;border:1px solid $olive;
+    input[type="radio"]{margin-left: -2rem;}
+  }//custom-radio
+  &:hover .custom-radio {background:lighten($lime, 30%);border:1px solid lighten($olive, 30%);}//hover
+  .custom-radio.selected{background:$olive;border:1px solid $olive;
+    &:hover{background:$olive;border:1px solid $olive;}//hover
+    }//selected
+}//label
