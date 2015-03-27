@@ -1,5 +1,6 @@
 // test CSS delete before development
 h1, h2, h3, h4, h5, h6{text-align:center;}
+body{background-color:$silver;}
 .triangle-up, .triangle-down, .triangle-left, .triangle-right, .square-box, .rectangle-box, .circle-text, .oval-text{color:$olive;}
 header, footer{background-color: $silver;color: $gray;text-align:center;}
 .overlayed *{padding:1rem;}

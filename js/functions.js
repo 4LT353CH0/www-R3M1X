@@ -73,6 +73,24 @@ $(radioButton).click(function(){
         $(this).parent().removeClass("selected");
     });
 });
+//
+
+//if/else btn click & .active
+$('.nav').click(function(){
+    if(!$(this).hasClass('active')) {
+        $(this).addClass('active');
+    }//if
+    else{
+        //do nothing
+}//else
+});
+
+/*$(.navBtn).click(function(){
+    if(!$(this).hasClass('active')){
+        $(this).addClass("active");
+    }
+    else{}
+};*/
 });//end doc ready
 
 
