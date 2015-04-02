@@ -74,18 +74,18 @@
 		<h5>Default Mobile First</h5>
 		<h6>Default Mobile First</h6>
 		<div class="row"><!--row-->
-			<div class="column-xs-12">.col-xs-1</div>
-			<div class="column-xs-12">.col-xs-1</div>
-			<div class="column-xs-12">.col-xs-1</div>
-			<div class="column-xs-12">.col-xs-1</div>
-			<div class="column-xs-12">.col-xs-1</div>
-			<div class="column-xs-12">.col-xs-1</div>
-			<div class="column-xs-12">.col-xs-1</div>
-			<div class="column-xs-12">.col-xs-1</div>
-			<div class="column-xs-12">.col-xs-1</div>
-			<div class="column-xs-12">.col-xs-1</div>
-			<div class="column-xs-12">.col-xs-1</div>
-			<div class="column-xs-12">.col-xs-1</div>
+			<div class="column-xs-1">.col-xs-1</div>
+			<div class="column-xs-1">.col-xs-1</div>
+			<div class="column-xs-1">.col-xs-1</div>
+			<div class="column-xs-1">.col-xs-1</div>
+			<div class="column-xs-1">.col-xs-1</div>
+			<div class="column-xs-1">.col-xs-1</div>
+			<div class="column-xs-1">.col-xs-1</div>
+			<div class="column-xs-1">.col-xs-1</div>
+			<div class="column-xs-1">.col-xs-1</div>
+			<div class="column-xs-1">.col-xs-1</div>
+			<div class="column-xs-1">.col-xs-1</div>
+			<div class="column-xs-1">.col-xs-1</div>
 		</div>
 		<div class="row"><!--row-->
 			<div class="column-xs-8">.col-xs-8</div>
