@@ -19,8 +19,9 @@
 	<!--[if lt IE 9]>
 	<script src="js/min/contribs/respond-min.js"></script>
 	<script src="js/min/contribs/rem-min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/es5-shim/2.0.8/es5-shim.min.js"></script>
 	<![endif]-->
-	<!-- Modernizer no-[feature]-classes  -->
+	<!-- Modernizr no-[feature]-classes  -->
 	<script src="js/min/contribs/modernizr-min.js"></script>
 
 	<!--Favicons & other-->

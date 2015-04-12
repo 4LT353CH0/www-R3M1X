@@ -25,6 +25,8 @@
 @import "components/responsive/font-mediaqueries";
 @import "components/responsive/form-mediaqueries";
 //@import "components/responsive/table-mediaqueries";
+//Plugins
+@import "../bower_components/selectize-scss/src/selectize.default";
 @import "components/ie/ie8";
 @import "starter/testcss";
 // * Optional CSS3 animations * //

@@ -1,20 +1,21 @@
 /** CUSTOM SCRIPTS **/
+$( document ).ready(function() {
 
-var radioButton = $('input[type="radio"]');
-$(radioButton).each(function(){
-    $(this).wrap( "<span class='custom-radio'></span>" );
-    if($(this).is(':checked')){
-        $(this).parent().addClass("selected");
-    }
-});
-$(radioButton).click(function(){
-    if($(this).is(':checked')){
-        $(this).parent().addClass("selected");
-    }
-    $(radioButton).not(this).each(function(){
-        $(this).parent().removeClass("selected");
+    var radioButton = $('input[type="radio"]');
+    $(radioButton).each(function(){
+        $(this).wrap( "<span class='custom-radio'></span>" );
+        if($(this).is(':checked')){
+            $(this).parent().addClass("selected");
+        }
     });
-});
+    $(radioButton).click(function(){
+        if($(this).is(':checked')){
+            $(this).parent().addClass("selected");
+        }
+        $(radioButton).not(this).each(function(){
+            $(this).parent().removeClass("selected");
+        });
+    });
 
 
 // if/else btn click & .active
@@ -26,8 +27,11 @@ $('nav ul li').click(function(){
         //do nothing
 }//else
 });
-
-// $("select").selectBoxIt();
+//selectizr plug custom option+select, crossbrowser
+$(function() {
+    $('option').selectize(options);
+});
+});// doc ready
 
 
 
