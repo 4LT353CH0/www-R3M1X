@@ -1,9 +1,11 @@
 // Normalize Forms
 
 //Variables:
+
+@import "../bower_components/jquery.selectBoxIt/src/stylesheets/jquery.selectBoxIt.css";
 form {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  fieldset{padding:0;}
+  fieldset{padding:0;border:0;}
   input{
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -58,7 +60,6 @@ select {
   border-color: #cccccc;
   padding: 0.5rem;
   font-size: 0.875rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   color: rgba(0, 0, 0, 0.75);
   line-height: normal;
   border-radius: 0;
@@ -74,5 +75,5 @@ select {
         select[multiple] {
           height: auto; }
 
-
 }//form
+

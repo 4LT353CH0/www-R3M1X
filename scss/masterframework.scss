@@ -1,6 +1,6 @@
 @charset "UTF-8";
 // import starter
-//@import "components/vendors/rem";
+// @import "components/vendors/rem";
 @import "starter/normalize";
 @import "starter/fixins/fixins";
 @import "starter/mixins/mixins";
@@ -24,7 +24,7 @@
 @import "components/responsive/grid-mediaqueries";
 @import "components/responsive/font-mediaqueries";
 @import "components/responsive/form-mediaqueries";
-@import "components/responsive/table-mediaqueries";
+//@import "components/responsive/table-mediaqueries";
 @import "components/ie/ie8";
 @import "starter/testcss";
 // * Optional CSS3 animations * //

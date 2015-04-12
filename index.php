@@ -447,92 +447,48 @@
 	<article class="container">
 		<h1>Tables</h1>
 		<section class="row">
-			<table class="column-xs-122 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12">
+			<tablew>
 				<thead>
 					<tr>
-						<th>First Name</th>
-						<th>Last Name</th>
-						<th>Job Title</th>
-						<th>Favorite Color</th>
-						<th>Wars or Trek?</th>
-						<th>Porn Name</th>
-						<th>Date of Birth</th>
-						<th>Dream Vacation City</th>
-						<th>GPA</th>
-						<th>Arbitrary Data</th>
+						<th>Device</th>
+						<th>OS</th>
+						<th>Resolution</th>
+						<th>Device Class</th>
+						<th>Profile</th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
-						<td>James</td>
-						<td>Matman</td>
-						<td>Chief Sandwich Eater</td>
-						<td>Lettuce Green</td>
-						<td>Trek</td>
-						<td>Digby Green</td>
-						<td>January 13, 1979</td>
-						<td>Gotham City</td>
-						<td>3.1</td>
-						<td>RBX-12</td>
+						<td>Apple</td>
+						<td>iOS 5.1</td>
+						<td>1024 x 768 @ 1x</td>
+						<td>10" Tablet</td>
+						<td>View Device Profile</td>
 					</tr>
 					<tr>
-						<td>The</td>
-						<td>Tick</td>
-						<td>Crimefighter Sorta</td>
-						<td>Blue</td>
-						<td>Wars</td>
-						<td>John Smith</td>
-						<td>July 19, 1968</td>
-						<td>Athens</td>
-						<td>N/A</td>
-						<td>Edlund, Ben (July 1996).</td>
+						<td>PC</td>
+						<td>Windows</td>
+						<td>800  x 600@ 1x</td>
+						<td>Computer</td>
+						<td>View Device Profile</td>
 					</tr>
 					<tr>
-						<td>Jokey</td>
-						<td>Smurf</td>
-						<td>Giving Exploding Presents</td>
-						<td>Smurflow</td>
-						<td>Smurf</td>
-						<td>Smurflane Smurfmutt</td>
-						<td>Smurfuary Smurfteenth, 1945</td>
-						<td>New Smurf City</td>
-						<td>4.Smurf</td>
-						<td>One</td>
-					</tr>
-					<tr>
-						<td>Cindy</td>
-						<td>Beyler</td>
-						<td>Sales Representative</td>
-						<td>Red</td>
-						<td>Wars</td>
-						<td>Lori Quivey</td>
-						<td>July 5, 1956</td>
-						<td>Paris</td>
-						<td>3.4</td>
-						<td>3451</td>
-					</tr>
-					<tr>
-						<td>Captain</td>
-						<td>Cool</td>
-						<td>Tree Crusher</td>
-						<td>Blue</td>
-						<td>Wars</td>
-						<td>Steve 42nd</td>
-						<td>December 13, 1982</td>
-						<td>Las Vegas</td>
-						<td>1.9</td>
-						<td>Under the couch</td>
+						<td>Pc</td>
+						<td>Linux</td>
+						<td>1024  x 768@ 1x</td>
+						<td>Computer</td>
+						<td>View Device Profile</td>
 					</tr>
 				</tbody>
 			</table>
+
+
 		</section>
 	</article>
 	<footer>
 		<h1>Footer</h1>
 	</footer>
-	<script src="js/min/contribs/jquery-1.10.2.min.js"></script>
 	<script src="js/min/scripts-min.js"></script>
-	<script src="js/min/functions-min.js"></script>
 
 </body>
 </html>
