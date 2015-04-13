@@ -158,7 +158,7 @@
 		},
 	"\/bower_components\/jquery-ui-1.11.4.custom\/jquery-ui.min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/jquery-ui-1.11.4.custom\/jquery-ui.min.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery-ui-1.11.4.custom\/min\/jquery-ui.min-min.js",
@@ -5689,8 +5689,8 @@
 		},
 	"\/bower_components\/selectize\/dist\/js\/standalone\/selectize.min.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/bower_components\/selectize\/dist\/js\/standalone\/selectize.min.js",
 		"outputAbbreviatedPath": "\/bower_components\/selectize\/dist\/js\/standalone\/min\/selectize.min-min.js",
 		"outputPathIsOutsideProject": 0,
@@ -6793,24 +6793,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
-		},
-	"\/scss\/css\/_normalize-form.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/css\/_normalize-form.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/scss\/css\/normalize-form.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/css\/normalize-form.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/scss\/editframework.scss": {
 		"createSourceMap": 0,

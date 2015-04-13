@@ -29,7 +29,7 @@ $('nav ul li').click(function(){
 });
 //selectizr plug custom option+select, crossbrowser
 $(function() {
-    $('option').selectize(options);
+    $('select').selectize();
 });
 });// doc ready
 
