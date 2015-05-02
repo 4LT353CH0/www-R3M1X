@@ -10,13 +10,13 @@
 
 	<meta name="description" content="">
 	<meta name="robots" content="noindex,nofollow">
-	<!-- STYLES -->
 	<link media="screen" rel="stylesheet" href="css/masterframework.css">
 	<link media="print" rel="stylesheet" href="css/printframework.css">
 	<!--WYSIWYG Stylesheet-->
 	<!--<style media="all">@import url(css/edit.css);</style>-->
 	<!-- media-queries.js (fallback) -->
 	<!--[if lt IE 9]>
+	<script src="plugins/min/safeconsole-min.js</script>
 	<script src="js/min/contribs/respond-min.js"></script>
 	<script src="js/min/contribs/rem-min.js"></script>
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/es5-shim/2.0.8/es5-shim.min.js"></script>
@@ -47,6 +47,8 @@
 	<!--meta tags for FACEBOOK @ http://ogp.me-->
 	<!--meta tags for TWITTER @ https://dev.twitter.com/cards/getting-started-->
 	<!--Microformats here @ http://microformats.org/wiki/Main_Page-->
+	<!-- HEAD.JS -->
+	<script src="js/plugins/min/head.load-min.js"></script>
 
 </head>
 
@@ -489,7 +491,14 @@
 	<footer>
 		<h1>Footer</h1>
 	</footer>
-	<script src="js/min/scripts-min.js"></script>
-
-</body>
-</html>
+	<script>
+		head.js("js/min/contribs/jquery-1.10.2.min.js",
+			"bower_components/jquery-ui-1.11.4.custom/jquery-ui.min.js",
+			"bower_components/selectize/dist/js/standalone/selectize.min.js",
+			"js/min/functions-min.js",
+			function() {
+				// alert('!!')
+			});
+		</script>
+	</body>
+	</html>

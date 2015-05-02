@@ -6,9 +6,11 @@
 @import "starter/mixins/mixins";
 @import "starter/generics";
 @import "starter/fonts";
+@import "starter/grid-system";
 @import "starter/normalize-forms";
 @import "starter/normalize-tables";
 // import custom components in constant evolution
+@import "components/objects/fontfaces";
 @import "components/colors/colors";
 @import "components/objects/shapes";
 @import "components/objects/overlays";
@@ -20,7 +22,6 @@
 @import "components/sections/article";
 @import "components/sections/aside";
 @import "components/sections/footer";
-@import "components/responsive/grid-system";
 @import "components/responsive/grid-mediaqueries";
 @import "components/responsive/font-mediaqueries";
 @import "components/responsive/form-mediaqueries";

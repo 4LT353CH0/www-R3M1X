@@ -16,7 +16,7 @@ $( document ).ready(function() {
             $(this).parent().removeClass("selected");
         });
     });
-
+    alert('yep');
 
 // if/else btn click & .active
 $('nav ul li').click(function(){

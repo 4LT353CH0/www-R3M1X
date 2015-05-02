@@ -1,6 +1,8 @@
 // test CSS delete before development
 h1, h2, h3, h4, h5, h6{text-align:center;}
-body{background-color:$silver;}
+h1, h2, h3{font-family: arvobold;}
+h4, h5, h6{font-family: geomanistbold;}
+body{background-color:$silver;font-family: 'geomanistregular';}
 .triangle-up, .triangle-down, .triangle-left, .triangle-right, .square-box, .rectangle-box, .circle-text, .oval-text{color:$olive;}
 header, footer{background-color: $silver;color: $gray;text-align:center;}
 .overlayed *{padding:1rem;}
