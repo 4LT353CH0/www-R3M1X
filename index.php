@@ -494,7 +494,9 @@
 	<script>
 		head.js("js/min/contribs/jquery-1.10.2.min.js",
 			"bower_components/jquery-ui-1.11.4.custom/jquery-ui.min.js",
+			//<select> plug
 			"bower_components/selectize/dist/js/standalone/selectize.min.js",
+			"bower_components/Snap.svg/dist/snap.svg-min.js",
 			"js/min/functions-min.js",
 			function() {
 				// alert('!!')
