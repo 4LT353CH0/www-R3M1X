@@ -116,7 +116,7 @@
                 </li>
             </ul>
             <div class="navigation row">
-                        <ul class="close column-xs-2">
+                        <ul class="close column-xs-3">
                             <li>
                                 <div class="centered-content">
                                     <div>

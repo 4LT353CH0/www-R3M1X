@@ -79,12 +79,12 @@
                         marginTop: '-19px'
                     }, 0);
                 });
-                $('html.no-touch .navigation ul.pages li.onglet a, html.no-touch .navigation ul.pages li.close').hover(function() {
+                $('html.no-touch .navigation ul.pages li.onglet a, html.no-touch .navigation ul.close span').hover(function() {
                     $(this).stop().animate({
                         color: '#fff6f0'
-                    }, 400, 'easeInSine');
+                    }, 100, 'easeInSine');
                 }, function() {
-                    $(this).stop().delay(200).animate({
+                    $(this).stop().delay(400).animate({
                         color: '#cc7431'
                     }, 600, 'easeOutSine');
                 });

@@ -96,9 +96,10 @@ header {
     .navigation {
           position: relative;
           top: -86px;
+          left: 33.5%; 
           left:125%;
-          width: 110%;
         ul.close {
+          width:19%;
           padding: 0;
           @extend .pointer;
           li {
@@ -122,19 +123,22 @@ header {
             border-top: $border;
             border-bottom: $border;
             border-left: $border;
-            padding-top: 20px;
-            padding-bottom: 20px;
+            padding:20px 15px;
             a {
                 color: $info-d-2;
+                margin: auto 30px;
+                display: block;
             }
             form {
                 border-top: $borderBrown;
                 border-bottom: $borderBrown;
                 margin: 25px 0;
-                padding:10px 0;  
+                padding:0 0 10px 0;  
+                height: 136px;
                 label {
-                    line-height: 25%;
-                    color: $info-d-2;
+                  margin:-25px 0 auto 30px; 
+                    line-height: 250%;
+                    color: $info-l-3;
                     @extend .fontRegular;
                     input {
                         height: 56px;
@@ -142,7 +146,7 @@ header {
                         box-shadow: none;
                         border: 0;
                         @extend .column-xs-10;
-                        margin-right: -8px;
+                        margin:0 -8px 0 0;
                         color: $info;
                         &:focus {
                             border-left: $border;
@@ -171,12 +175,13 @@ header {
             }//form
         }//pages
         ul.liens {
-                    @extend .typeSmall;
-                    @extend .fontRegular;
-                    line-height: 130%;
+            font-size:55%;
+            @extend .fontRegular;
+            overflow: hidden;
+            line-height: 160%;
                     border: none;
+                    padding: 10px 0 45px 0;
                     li {
-                        padding: 0 15px;
                         a {
                             color: $info-l-1;
                         }
