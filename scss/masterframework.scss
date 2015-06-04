@@ -5,16 +5,18 @@
 @import "starter/fixins/fixins";
 @import "starter/mixins/mixins";
 @import "starter/generics";
+@import "../fonts/icons/foundation/foundation-icons.css"; 
 @import "starter/fonts";
+@import "starter/spaces";
+@import "components/objects/buttons"; 
 @import "starter/grid-system";
 @import "starter/normalize-forms";
 @import "starter/normalize-tables";
 // import custom components in constant evolution
-@import "components/objects/fontfaces";
 @import "components/colors/colors";
 @import "components/objects/shapes";
+@import "components/objects/borders";
 @import "components/objects/overlays";
-@import "components/objects/buttons";
 @import "components/objects/tooltips";
 @import "components/objects/forms";
 @import "components/sections/header";
@@ -22,14 +24,16 @@
 @import "components/sections/article";
 @import "components/sections/aside";
 @import "components/sections/footer";
+@import "components/responsive/generics-mediaqueries";
 @import "components/responsive/grid-mediaqueries";
 @import "components/responsive/font-mediaqueries";
 @import "components/responsive/form-mediaqueries";
+@import "components/responsive/mediaqueries";
 //@import "components/responsive/table-mediaqueries";
 //Plugins
 @import "../bower_components/selectize-scss/src/selectize.default";
 @import "components/ie/ie8";
-@import "starter/testcss";
+//@import "starter/testcss";
 // * Optional CSS3 animations * //
 //@import "vendors/animate";
 // ==========================================================

@@ -1,0 +1,34 @@
+{
+  "name": "lazy-line-painter",
+  "version": "1.5.1",
+  "homepage": "https://github.com/camoconnell/lazy-line-painter",
+  "authors": [
+    "cam o'connell"
+  ],
+  "description": "A Jquery plugin for svg path animation using CSS.",
+  "main": "jquery.lazylinepainter-1.5.1.js",
+  "keywords": [
+    "svg",
+    "css",
+    "line",
+    "animation"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "1.5.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.5.1",
+    "commit": "9196d4c0bdabab8f5fb0fa52077fe1f40aad6c37"
+  },
+  "_source": "git://github.com/camoconnell/lazy-line-painter.git",
+  "_target": "~1.5.1",
+  "_originalSource": "lazy-line-painter",
+  "_direct": true
+}

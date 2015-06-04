@@ -1,11 +1,191 @@
 /*
 	Header
     */
-    header{
-        width: 100%;
-        display: block;
-        float: none;
-}//header
+
+header {
+    width: 100%;
+    display: block;
+    float: none;
+    .inscription {
+        background: $aside-l-1;
+        border-bottom: $border;
+        height: 79px;
+        li:first-child .centered-content {
+            width: 90%;
+            left: 5%;
+        }
+        li {
+            height: 100%;
+            text-align: center;
+        }
+        .login.column-xs-6 {
+            a {
+                width: 100%;
+                text-align: center;
+                display: block;
+                text-decoration: underline;
+            }
+        }
+        h1,
+        h2,
+        h3 {
+            @extend .typeSmall;
+            border-bottom: $border;
+            a {
+                color: $aside-d-3;
+            }
+        }
+        h2 a {
+            padding: auto 15px;
+            display: block;
+        }
+        h3 {
+            background: $aside;
+        }
+    }
+    .menu {
+        color: #fff;
+        li {
+            @extend .pointer;
+            position: relative;
+            background: $info;
+            border: $border;
+            height: 85px;
+        }
+        li:first-child {
+            border-left: none;
+        }
+        li:last-child {
+            border-right: none;
+        }
+        aside {
+            h2 {
+                padding-left: 15px;
+                span {
+                    width: 30px;
+                    height: 19px;
+                    overflow: hidden;
+                    padding-top: 4px;
+                    display: block;
+                    margin-top: 4px;
+                    img {
+                        width: 15px;
+                        height: auto;
+                        float: left;
+                        margin: 0 -10px 0 0;
+                    }
+                    img:last-child {
+                        margin-top: -19px;
+                    }
+                }
+            }
+            p {
+                position: absolute;
+                right: 25px;
+                top: 18px;
+                letter-spacing: 2px;
+                color: '#fff';
+            }
+        }
+        //aside
+        .icon {
+            font-size: 250%;
+        }
+    }
+    //navigation small screens
+    .navigation {
+          position: relative;
+          top: -86px;
+          left:125%;
+          width: 110%;
+        ul.close {
+          padding: 0;
+          @extend .pointer;
+          li {
+            background: $info-d-3;
+            color: $info-d-2;
+            left: 0;
+            text-align: center;
+            background: $info-d-3;
+            height: 87px;
+            border: $borderFull;
+            .icon{
+              font-size: 250%;
+            }
+        }
+        }
+        ul.pages {
+            top:1px;
+            background: $info-d-3;
+            @extend .fontBold;
+            @extend .typeSize1;
+            border-top: $border;
+            border-bottom: $border;
+            border-left: $border;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            a {
+                color: $info-d-2;
+            }
+            form {
+                border-top: $borderBrown;
+                border-bottom: $borderBrown;
+                margin: 25px 0;
+                padding:10px 0;  
+                label {
+                    line-height: 25%;
+                    color: $info-d-2;
+                    @extend .fontRegular;
+                    input {
+                        height: 56px;
+                        background: $info-d-2;
+                        box-shadow: none;
+                        border: 0;
+                        @extend .column-xs-10;
+                        margin-right: -8px;
+                        color: $info;
+                        &:focus {
+                            border-left: $border;
+                            color: $info-l-2;
+                            font-size: 85%;
+                            @extend .fontBold;
+                            background: $info-d-2;
+                        }
+                    }
+                    .row {
+                        background: $info-d-2;
+                        height: 56px;
+                        margin-left: 0;
+                        margin-right: 0;
+                    }
+                    .icon {
+                        @extend .column-xs-2;
+                        color: $info-d-2;
+                        text-align: center;
+                        background: $info-d-3;
+                        height: 48px;
+                        margin: 4px;
+                        padding: 13px 0 0 0;
+                    }
+                }//label
+            }//form
+        }//pages
+        ul.liens {
+                    @extend .typeSmall;
+                    @extend .fontRegular;
+                    line-height: 130%;
+                    border: none;
+                    li {
+                        padding: 0 15px;
+                        a {
+                            color: $info-l-1;
+                        }
+                    }
+                }
+    }//.navigation
+}
+//header
+
 /*
 	/Header
     */

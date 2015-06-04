@@ -1,0 +1,32 @@
+// Generics mediaqueries
+
+//Display or not
+@media (min-width: 0px) {
+  .xs-show{display: block;}
+  .xs-hide{display: none;}
+}
+@media (min-width: 768px) {
+  .sm-show{display: block;}
+  .sm-hide{display: none;}
+}
+@media (min-width: 992px) {
+  .md-show{display: block;}
+  .md-hide{display: none;}    
+}
+@media (min-width: 1200px) {
+  .lg-show{display: block;}
+  .lg-hide{display: none;}
+}
+@media (min-width: 1600px) {
+  .xl-show{display: block;}
+  .xl-hide{display: none;}
+}
+@media (min-width: 1900px) {
+  .xxl-show{display: block;}
+  .xxl-hide{display: none;}    
+}
+@media (min-width: 2200px) {
+  .tv-show{display: block;}
+  .tv-hide{display: none;}
+}
+

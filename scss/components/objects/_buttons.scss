@@ -2,7 +2,39 @@
 	Buttons
 */
 
-
+//center content vertically
+.centered-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    div {
+        display: table;
+        width: 100%;
+        height: 100%;
+    }
+    span,
+    a,
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    }
+}
+//foundation icons
+.pointer {
+    cursor: pointer;
+}
 /*
 	/Buttons
 */

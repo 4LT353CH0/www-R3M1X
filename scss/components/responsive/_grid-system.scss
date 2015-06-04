@@ -1,5 +1,7 @@
 //grid system
-body{min-width:320px;}
+.container, .container-fluid{
+  min-width: 480px;
+}
 .container {
   padding-right: 15px;
   padding-left: 15px;
