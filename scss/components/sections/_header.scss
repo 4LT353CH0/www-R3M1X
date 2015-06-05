@@ -4,21 +4,32 @@
 
 header {
     width: 100%;
+    height:185px;
+    position: fixed;
     display: block;
     float: none;
     .inscription {
-        background: $aside-l-1;
         border-bottom: $border;
         height: 79px;
-        li:first-child .centered-content {
+        li:first-child .centered-content { 
             width: 90%;
             left: 5%;
+          a{
+            text-align: left;
+            @extend .typeSize3;
+          }
         }
         li {
+            background: $aside-l-2;
             height: 100%;
             text-align: center;
         }
-        .login.column-xs-6 {
+        li.saviezvous{
+          border: 0;
+          background-color: $aside-l-1;
+            a{@extend .typeSize4;}
+        }      
+        .login {
             a {
                 width: 100%;
                 text-align: center;
@@ -54,13 +65,18 @@ header {
         }
         li:first-child {
             border-left: none;
+          &:hover{    
+            @extend .fontRegular;
+          }
         }
         li:last-child {
             border-right: none;
         }
         aside {
+            
             h2 {
-                padding-left: 15px;
+                padding: 10px 5px 0 15px;
+                float: left;
                 span {
                     width: 30px;
                     height: 19px;
@@ -80,11 +96,9 @@ header {
                 }
             }
             p {
-                position: absolute;
-                right: 25px;
-                top: 18px;
+                position: relative;
+                float: left;
                 letter-spacing: 2px;
-                color: '#fff';
             }
         }
         //aside
@@ -95,9 +109,9 @@ header {
     //navigation small screens
     .navigation {
           position: relative;
-          top: -86px;
-          left: 33.5%; 
+          top: -86px; 
           left:125%;
+      
         ul.close {
           width:19%;
           padding: 0;
@@ -129,53 +143,10 @@ header {
                 margin: auto 30px;
                 display: block;
             }
-            form {
-                border-top: $borderBrown;
-                border-bottom: $borderBrown;
-                margin: 25px 0;
-                padding:0 0 10px 0;  
-                height: 136px;
-                label {
-                  margin:-25px 0 auto 30px; 
-                    line-height: 250%;
-                    color: $info-l-3;
-                    @extend .fontRegular;
-                    input {
-                        height: 56px;
-                        background: $info-d-2;
-                        box-shadow: none;
-                        border: 0;
-                        @extend .column-xs-10;
-                        margin:0 -8px 0 0;
-                        color: $info;
-                        &:focus {
-                            border-left: $border;
-                            color: $info-l-2;
-                            font-size: 85%;
-                            @extend .fontBold;
-                            background: $info-d-2;
-                        }
-                    }
-                    .row {
-                        background: $info-d-2;
-                        height: 56px;
-                        margin-left: 0;
-                        margin-right: 0;
-                    }
-                    .icon {
-                        @extend .column-xs-2;
-                        color: $info-d-2;
-                        text-align: center;
-                        background: $info-d-3;
-                        height: 48px;
-                        margin: 4px;
-                        padding: 13px 0 0 0;
-                    }
-                }//label
-            }//form
+            
         }//pages
         ul.liens {
-            font-size:55%;
+          font-size:55%;
             @extend .fontRegular;
             overflow: hidden;
             line-height: 160%;
@@ -188,9 +159,52 @@ header {
                     }
                 }
     }//.navigation
+  //desktop
+  nav.md-show{
+    ul li.onglet{
+      width:11.11111%;
+      display: inline-block;
+      float: left;
+      @extend .fontRegular;
+    }
+  }
+  nav.md-show{
+    .searchform{
+      .centered-content{
+        overflow: hidden;
+      }
+      form{
+        border:0;
+        margin:14px 0;
+        label{  
+          margin: 0;
+          width: 0;
+          height: 0;
+          line-height: 0;
+          color: #fff6f0;
+          input{
+            background-color: $info;
+            color: $info-l-3;
+            &:focus{
+              border:none;
+            }
+          }
+          input[type="submit"]{
+              background-position: 50% -34px; 
+                    }
+          .icon{
+            margin: 0;
+            height:56px;
+          }
+        }//label
+        .row{
+            background-color: $info;
+        }
+      }//form
+    }
+  }//nav.md-show
 }
 //header
-
 /*
 	/Header
     */

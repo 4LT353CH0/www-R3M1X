@@ -61,24 +61,24 @@
         <div id="loader"></div>
     </div>
     <!--Déut page-->
-    <header class="container">
+    <header class="container-fluid star">
         <!-- inscription mobile-->
         <ul class="inscription row">
-            <li class="column-xs-6">
+            <li class="column-xs-6 column-sm-8 column-md-6">
                 <div class="centered-content">
                     <div>
                         <h1><a href="#" title="Revenir à la page d'accueil">Ce site est concue pour veiller sur la l’évolution du web et partager ces d’idées entre collègues, nous vous souhaitons bienvenue chez [SITE WEB]</a></h1>
                     </div>
                 </div>
             </li>
-            <li class="column-xs-6 xs-hide md-show">
+            <li class="column-md-4 xs-hide md-show saviezvous">
                 <div class="centered-content">
                     <div>
                         <h2><a href="#" title="Inscrivez-vous pour participer à l'évolution de ce blog & enrichissez vos compétences de la création site web">Saviez-vous que vous pourriez participer à ce blog communautaire?</a></h2>
                     </div>
                 </div>
             </li>
-            <li class="column-xs-6 login fontMedium">
+            <li class="column-xs-6 login fontMedium column-sm-4 column-md-2">
                 <div class="centered-content">
                     <div>
                         <h3><a href="#" title="Les membres futurs, inscrivez-vous/login">Inscrivez-vous / Login</a></h3> 
@@ -86,10 +86,10 @@
                 </div>
             </li>
         </ul>
-        <!-- menu-->
-        <nav>
+        <!-- menu mobile-->
+        <nav class="xs-show md-hide">
             <ul class="menu row">
-                <li class="column-xs-4">
+                <li class="column-xs-4 column-sm-7">
                     <aside class="centered-content">
                         <div>
                             <a href="#" title="À la rencontre du webmestre">
@@ -99,14 +99,14 @@
                         </div>
                     </aside>
                 </li>
-                <li class="column-xs-6">
+                <li class="column-xs-6 column-sm-4">
                     <h3 class="centered-content">
                       <div>
                      <a class="button" href="#" title="Contactez-nous pour plus d'information">CONTACTEZ-NOUS</a>
                      </div>
                    </h3>
                 </li>
-                <li class="column-xs-2">
+                <li class="column-xs-2 column-sm-1">
                     <div class="centered-content">
                         <div>
                             <span class="fi-list icon"></span>
@@ -116,57 +116,155 @@
                 </li>
             </ul>
             <div class="navigation row">
-                        <ul class="close column-xs-3">
-                            <li>
-                                <div class="centered-content">
-                                    <div>
-                                        <span class="fi-x icon"></span>
-                                    </div>
+                <ul class="close column-xs-3 column-sm-1">
+                    <li>
+                        <div class="centered-content">
+                            <div>
+                                <span class="fi-x icon"></span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="column-xs-6 pages">
+                    <li class="onglet"><a href="#" title="Onglet">ACCUEIL</a>
+                    </li>
+                    <li class="onglet"><a href="#" title="Onglet">HTML</a>
+                    </li>
+                    <li class="onglet"><a href="#" title="Onglet">CSS</a>
+                    </li>
+                    <li class="onglet"><a href="#" title="Onglet">JAVASCRIPT</a>
+                    </li>
+                    <li class="onglet"><a href="#" title="Onglet">WORDPRESS</a>
+                    </li>
+                    <li class="onglet"><a href="#" title="Onglet">GEEKTASTIQUE</a>
+                    </li>
+                    <li class="onglet"><a href="#" title="Onglet">ONGLET</a>
+                    </li>
+                    <li class="onglet"><a href="#" title="Onglet">ONGLET</a>
+                    </li>
+                    <li>
+                        <form action="#">
+                            <label>CHERCHER
+                                <div class="row">
+                                    <input type="text">
+                                    <input type="submit" value="" class="icon" title="ENVOYER">
                                 </div>
-                            </li>
-                        </ul>
-                        <ul class="column-xs-6 pages">
-                          <li class="onglet"><a href="#" title="Onglet">ONGLET</a>
-                            </li>
-                            <li class="onglet"><a href="#" title="Onglet">ONGLET</a>
-                            </li>
-                            <li class="onglet"><a href="#" title="Onglet">ONGLET</a>
-                            </li>
-                            <li class="onglet"><a href="#" title="Onglet">ONGLET</a>
-                            </li>
-                            <li class="onglet"><a href="#" title="Onglet">ONGLET</a>
-                            </li>
-                            <li class="onglet"><a href="#" title="Onglet">ONGLET</a>
-                            </li>
-                            <li class="onglet"><a href="#" title="Onglet">ONGLET</a>
-                            </li>
-                            <li>
-                                <form action="#">
-                                    <label>CHERCHER
-                                        <div class="row">
-                                            <input type="text">
-                                            <span class="fi-magnifying-glass icon"></span>
-                                        </div>
-                                    </label>
+                            </label>
 
-                                </form>
+                        </form>
+                    </li>
+                    <li>
+                        <ul class="liens">
+                            <li><a href="#" title="lien">monlienpartisan.fr</a>
                             </li>
-                            <li>
-                                <ul class="liens">
-                                    <li><a href="#" title="lien">monlienpartisan.fr</a>
-                                    </li>
-                                    <li><a href="#" title="lien">monliensympapartisan.fr</a>
-                                    </li>
-                                    <li><a href="#" title="lien">monliensympapartisan.fr</a>
-                                    </li>
-                                </ul>
+                            <li><a href="#" title="lien">monliensympapartisan.fr</a>
+                            </li>
+                            <li><a href="#" title="lien">monliensympapartisan.fr</a>
                             </li>
                         </ul>
+                    </li>
+                </ul>
             </div>
         </nav>
+        <!-- menu desktop-->
+        <nav class="xs-hide md-show desktop">
+            <ul class="menu row">
+                <li class="column-md-2">
+                    <aside class="centered-content">
+                        <div>
+                            <a href="#" title="À la rencontre du webmestre">
+                                <h2><span><img src="medias/images/bitmaps/logos/logo-jhdwp-sprite.png" alt="Jarl HELIN Design Web Print"><img src="medias/images/bitmaps/logos/logo-jhdwp-sprite.png" alt="Jarl HELIN Design Web Print"></span></h2>
+                                <p>JHDWP.FR</p>
+                            </a>
+                        </div>
+                    </aside>
+                </li>
+                <li class="onglet left">
+                    <div class="centered-content">
+                        <div>
+                            <a class="button" href="#" title="Contactez-nous pour plus d'information">ACCUEIL</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="onglet left">
+                    <div class="centered-content">
+                        <div>
+                            <a class="button" href="#" title="Contactez-nous pour plus d'information">HTML</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="onglet left">
+                    <div class="centered-content">
+                        <div>
+                            <a class="button" href="#" title="Contactez-nous pour plus d'information">CSS</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="onglet left">
+                    <div class="centered-content">
+                        <div>
+                            <a class="button" href="#" title="Contactez-nous pour plus d'information">JAVASCRIPT</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="onglet left">
+                    <div class="centered-content">
+                        <div>
+                            <a class="button" href="#" title="Contactez-nous pour plus d'information">WORDPRESS</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="onglet left">
+                    <div class="centered-content">
+                        <div>
+                            <a class="button" href="#" title="Contactez-nous pour plus d'information">GEEKTASTIQUE</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="column-md-2 searchform">
+                    <div class="centered-content">
+                        <div>
+                            <span>
+                            <form action="#">
+                            <label>
+                                <div class="row">
+                                    <input type="text">
+                                    <input type="submit" value="" class="icon" title="ENVOYER">
+                                </div>
+                              </label>
+                        </form>
+                          </span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <section class="container">
-
+    <section class="container hero">
+        <article>
+            <ul class="geektastique">
+                <li class="item1 newsBtn">
+                    <div class="covered">
+                        lorem
+                    </div>
+                    <div class="cover">
+                        <h2>
+              LES TITRES
+            </h2>
+                        <div class="rounded">
+                            <img src="#" alt="background">
+                            <img src="#" alt="icon">
+                            <img src="#" alt="shader">
+                        </div>
+                    </div>
+                </li>
+                <li class="item2"></li>
+                <li class="item3"></li>
+                <li class="item4"></li>
+                <li class="item5"></li>
+                <li class="item6"></li>
+            </ul>
+        </article>
     </section>
 
 </body>

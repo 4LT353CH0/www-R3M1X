@@ -1,0 +1,12 @@
+/*
+	Body
+*/
+body {
+  background: #fff;
+  padding-top: 200px; }
+  body header.container-fluid, body section.container-fluid, body section.container {
+    min-width: 480px; }
+
+/*
+	/Body
+*/

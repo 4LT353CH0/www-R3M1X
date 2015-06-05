@@ -47,7 +47,7 @@
 
                 // 1.0 // Header
 
-                //hover functions
+                //hover main nav functions
                 $('html.no-touch header nav .menu li').hover(function() {
                     //background & text
                     $(this).stop().animate({
@@ -90,7 +90,7 @@
                 });
                 // click fonctions
                 $('ul.menu li:last-child').click(function() {
-                    // console.log('fdds');
+                    // console.log('logged');
                     $(this).parent().siblings('.navigation').stop().animate({
                         left: '33.334%'
                     }, 500, 'easeInOutSine');
@@ -101,5 +101,39 @@
                         left: '125%'
                     }, 500, 'easeInOutSine');
                 });
+                //if scroll hide inscription
+                $(window).scroll(function() {
+                    if ($(window).scrollTop() > 30) {
+                        $('header.star .inscription').stop().animate({
+                            marginTop: '-80px'
+                        }, 200);
+                    } else {
+                        //get back to original
+                        $('header.star .inscription').stop().show(2, function() {
+                            $(this).animate({
+                                marginTop: '0px'
+                            }, 100);
+                        });
+                    }
+                }); //fin condition
 
-            }); //end function
+                $(window).scroll(function() {
+                    if ($(window).scrollTop() > 800) {
+                        $('header.star nav.md-show li').stop().animate({
+                            height: '50px'
+                        }, 1000, 'easeOutSine');
+                        $('header.star nav.md-show li form').stop().animate({
+                            marginTop: '-3px'
+                        }, 1000, 'easeOutSine');
+                    } else {
+                        //get back to original
+                        $('header.star nav.md-show li').stop().animate({
+                            height: '85px'
+                        }, 1000, 'easeOutSine');
+                        $('header.star nav.md-show li form').stop().animate({
+                            marginTop: '14px'
+                        }, 1000, 'easeOutSine');
+                    }
+                }); //fin condition
+
+            }); //end personal functions and scripts in head

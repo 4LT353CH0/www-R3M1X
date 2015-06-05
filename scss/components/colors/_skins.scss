@@ -121,9 +121,88 @@
 // R3M1X //
 //
 
-/* Backgrounds */
+// ------------
+// R3M1X COLORS
+// ------------
+
+// [COLOR]
+.c-info{color:$info;}//basecolor info orange
+.c-blog{color:$blog;}//basecolor blog green
+.c-member{color:$member;}//basecolor member red
+.c-aside{color:$aside;}//basecolor aside grey
+
+// lighten colors
+
+.c-info-l-1{color: $info-l-1;}  //info orange
+.c-info-l-2{color: $info-l-2;} //info orange
+.c-info-l-3{color: $info-l-3;} //info orange
+.c-blog-l-1{color: $blog-l-1;}  //blog green
+.c-blog-l-2{color: $blog-l-1;}  //blog green
+.c-blog-l-3{color: $blog-l-1;}  //blog green
+.c-member-l-1{color: $member-l-1;}  //member red
+.c-member-l-2{color: $member-l-2;}  //member red
+.c-member-l-3{color: $member-l-3;}  //member red
+.c-aside-l-1{color: $aside-l-1;}  //aside grey
+.c-aside-l-2{color: $aside-l-2;}  //aside grey
+.c-aside-l-3{color: $aside-l-3;}  //aside grey
+ 
+// darken colors
+
+.c-info-d-1{color: $info-d-1;}  //info orange
+.c-info-d-2{color: $info-d-2;}  //info orange
+.c-info-d-3{color: $info-d-3;}  //info orange
+.c-info-d-4{color: $info-d-4;} //info orange
+.c-blog-d-1{color: $blog-d-1;}  //blog green
+.c-blog-d-2{color: $blog-d-2;}  //blog green
+.c-blog-d-3{color: $blog-d-3;}  //blog green
+.c-blog-d-4{color: $blog-d-4;} //blog green
+.c-member-d-1{color: $member-d-1;}  //member red
+.c-member-d-2{color: $member-d-2;}  //member red
+.c-member-d-3{color: $member-d-3;} //member red
+.c-member-d-4{color: $member-d-4;}  //aside grey
+.c-aside-d-1{color: $aside-d-1;} //aside grey
+.c-aside-d-2{color: $aside-d-2;}  //aside grey
+.c-aside-d-3{color: $aside-d-3;} //aside grey
 
 
+// [BACKGROUND]
+.bg-info{background:$info;}//basecolor info orange
+.bg-blog{background:$blog;}//basecolor blog green
+.bg-member{background:$member;}//basecolor member red
+.bg-aside{background:$aside;}//basecolor aside grey
+
+// lighten colors
+
+.bg-info-l-1{background: $info-l-1;}  //info orange
+.bg-info-l-2{background: $info-l-2;} //info orange
+.bg-info-l-3{background: $info-l-3;} //info orange
+.bg-blog-l-1{background: $blog-l-1;}  //blog green
+.bg-blog-l-2{background: $blog-l-1;}  //blog green
+.bg-blog-l-3{background: $blog-l-1;}  //blog green
+.bg-member-l-1{background: $member-l-1;}  //member red
+.bg-member-l-2{background: $member-l-2;}  //member red
+.bg-member-l-3{background: $member-l-3;}  //member red
+.bg-aside-l-1{background: $aside-l-1;}  //aside grey
+.bg-aside-l-2{background: $aside-l-2;}  //aside grey
+.bg-aside-l-3{background: $aside-l-3;}  //aside grey
+ 
+// darken colors
+
+.bg-info-d-1{background: $info-d-1;}  //info orange
+.bg-info-d-2{background: $info-d-2;}  //info orange
+.bg-info-d-3{background: $info-d-3;}  //info orange
+.bg-info-d-4{background: $info-d-4;} //info orange
+.bg-blog-d-1{background: $blog-d-1;}  //blog green
+.bg-blog-d-2{background: $blog-d-2;}  //blog green
+.bg-blog-d-3{background: $blog-d-3;}  //blog green
+.bg-blog-d-4{background: $blog-d-4;} //blog green
+.bg-member-d-1{background: $member-d-1;}  //member red
+.bg-member-d-2{background: $member-d-2;}  //member red
+.bg-member-d-3{background: $member-d-3;} //member red
+.bg-member-d-4{background: $member-d-4;}  //aside grey
+.bg-aside-d-1{background: $aside-d-1;} //aside grey
+.bg-aside-d-2{background: $aside-d-2;}  //aside grey
+.bg-aside-d-3{background: $aside-d-3;} //aside grey
 
 
 

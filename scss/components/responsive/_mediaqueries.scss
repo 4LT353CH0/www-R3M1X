@@ -1,9 +1,15 @@
 // customized mediaqueries
 
 //Specific media queries
+@media (min-width: 640px) {
+    ul.liens li a{font-size:125%;line-height:150%;}
+}
 @media (min-width: 768px) {
+     
 }
 @media (min-width: 992px) {
+  
+  
 }
 @media (min-width: 1200px) {
 }

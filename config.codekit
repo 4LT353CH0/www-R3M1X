@@ -8347,6 +8347,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/medias\/images\/bitmaps\/backgrounds\/shader-glass-vertical-100.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13288,
+		"inputAbbreviatedPath": "\/medias\/images\/bitmaps\/backgrounds\/shader-glass-vertical-100.png",
+		"outputAbbreviatedPath": "\/medias\/images\/bitmaps\/backgrounds\/shader-glass-vertical-100.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/medias\/images\/bitmaps\/backgrounds\/shader-glass-vertical-25.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13266,
+		"inputAbbreviatedPath": "\/medias\/images\/bitmaps\/backgrounds\/shader-glass-vertical-25.png",
+		"outputAbbreviatedPath": "\/medias\/images\/bitmaps\/backgrounds\/shader-glass-vertical-25.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/medias\/images\/bitmaps\/backgrounds\/shader-glass-vertical-50.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13263,
+		"inputAbbreviatedPath": "\/medias\/images\/bitmaps\/backgrounds\/shader-glass-vertical-50.png",
+		"outputAbbreviatedPath": "\/medias\/images\/bitmaps\/backgrounds\/shader-glass-vertical-50.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/medias\/images\/bitmaps\/backgrounds\/shader-glass-vertical-75.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13312,
+		"inputAbbreviatedPath": "\/medias\/images\/bitmaps\/backgrounds\/shader-glass-vertical-75.png",
+		"outputAbbreviatedPath": "\/medias\/images\/bitmaps\/backgrounds\/shader-glass-vertical-75.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/medias\/images\/bitmaps\/favicons\/apple-touch-icon-114x114.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -8567,6 +8611,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/medias\/images\/bitmaps\/icons\/fi-magnifying-glass.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1972,
+		"inputAbbreviatedPath": "\/medias\/images\/bitmaps\/icons\/fi-magnifying-glass.png",
+		"outputAbbreviatedPath": "\/medias\/images\/bitmaps\/icons\/fi-magnifying-glass.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/medias\/images\/bitmaps\/logos\/logo-jhdwp-left.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -8677,6 +8732,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/scss\/components\/css\/_body.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/components\/css\/_body.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/scss\/components\/ie\/_ie8.scss": {
 		"createSourceMap": 0,
