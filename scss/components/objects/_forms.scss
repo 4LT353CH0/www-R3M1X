@@ -1,58 +1,53 @@
 //customize form
-
-@import "components/objects/customRadioCheckbox";
-
+@import "customRadioCheckbox";
 //R3M1X search form
-
 form {
-                border-top: $borderBrown;
-                border-bottom: $borderBrown;
-                margin: 25px 0;
-                padding:0 0 10px 0;  
-                height: 136px;
-                label {
-                  margin:-25px 0 auto 30px; 
-                    line-height: 250%;
-                    color: $info-l-3;
-                    @extend .fontRegular;
-                    input[type="text"] {
-                        height: 56px;
-                        background: $info-d-2;
-                        box-shadow: none;
-                        border: 0;
-                        @extend .column-xs-10;
-                        margin:0 -8px 0 0;
-                        color: $info;
-                        &:focus {
-                            border-left: $border;
-                            color: $info-l-2;
-                            font-size: 85%;
-                            @extend .fontBold;
-                            background: $info-d-2;
-                        }
-                    }//input text
-                    input[type="submit"]{
-                      @extend .pointer;
-                      border:none;
-                      background-image: url('../medias/images/bitmaps/icons/fi-magnifying-glass.png');
-                      background-repeat: no-repeat;
-                      background-position: 50% 3px;
-                    }
-                    .row {
-                        background: $info-d-2;
-                        height: 56px;
-                        margin-left: 0;
-                        margin-right: 0;
-                    }
-                    .icon {
-                        @extend .column-xs-2;
-                        text-align: center;
-                        background: $info-d-3;
-                        height: 48px;
-                        margin: 4px;
-                        padding: 13px 0 0 0;
-                    }
-                }//label
-            }//form
-
-
+    border-top: $borderBrown;
+    border-bottom: $borderBrown;
+    margin: 25px 0;
+    padding: 0 0 10px 0;
+    height: 136px;
+    label {
+        margin: -25px 0 auto 30px;
+        line-height: 250%;
+        color: $info-l-3;
+        @extend .fontRegular;
+        input[type="text"] {
+            height: 56px;
+            background: $info-d-2;
+            box-shadow: none;
+            border: 0;
+            @extend .column-xs-10;
+            margin: 0 -8px 0 0;
+            color: $info;
+            &:focus {
+                border-left: $border;
+                color: $info-l-2;
+                font-size: 85%;
+                @extend .fontBold;
+                background: $info-d-2;
+            }
+        } //input text
+        input[type="submit"] {
+            @extend .pointer;
+            border: none;
+            background-image: url('../medias/images/bitmaps/icons/fi-magnifying-glass.png');
+            background-repeat: no-repeat;
+            background-position: 50% 3px;
+        }
+        .row {
+            background: $info-d-2;
+            height: 56px;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .icon {
+            @extend .column-xs-2;
+            text-align: center;
+            background: $info-d-3;
+            height: 48px;
+            margin: 4px;
+            padding: 13px 0 0 0;
+        }
+    } //label
+} //form
