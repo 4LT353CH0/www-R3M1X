@@ -64,7 +64,7 @@
     <header class="container-fluid star">
         <!-- inscription mobile-->
         <ul class="inscription row">
-            <li class="column-xs-6 column-sm-8 column-md-6">
+            <li class="column-6 column-sm-8 column-md-6">
                 <div class="centered-content">
                     <div>
                         <h1><a href="#" title="Revenir à la page d'accueil">Ce site est concue pour veiller sur la l’évolution du web et partager ces d’idées entre collègues, nous vous souhaitons bienvenue chez [SITE WEB]</a></h1>
@@ -78,7 +78,7 @@
                     </div>
                 </div>
             </li>
-            <li class="column-xs-6 login fontMedium column-sm-4 column-md-2">
+            <li class="column-6 login fontMedium column-sm-4 column-md-2">
                 <div class="centered-content">
                     <div>
                         <h3><a href="#" title="Les membres futurs, inscrivez-vous/login">Inscrivez-vous / Login</a></h3> 
@@ -89,7 +89,7 @@
         <!-- menu mobile-->
         <nav class="xs-show md-hide">
             <ul class="menu row">
-                <li class="column-xs-4 column-sm-7">
+                <li class="column-4 column-sm-7">
                     <aside class="centered-content">
                         <div>
                             <a href="#" title="À la rencontre du webmestre">
@@ -99,14 +99,14 @@
                         </div>
                     </aside>
                 </li>
-                <li class="column-xs-6 column-sm-4">
+                <li class="column-6 column-sm-4">
                     <h3 class="centered-content">
                       <div>
                      <a class="button" href="#" title="Contactez-nous pour plus d'information">CONTACTEZ-NOUS</a>
                      </div>
                    </h3>
                 </li>
-                <li class="column-xs-2 column-sm-1">
+                <li class="column-2 column-sm-1">
                     <div class="centered-content">
                         <div>
                             <span class="fi-list icon"></span>
@@ -116,7 +116,7 @@
                 </li>
             </ul>
             <div class="navigation row">
-                <ul class="close column-xs-3 column-sm-1">
+                <ul class="close column-3 column-sm-1">
                     <li>
                         <div class="centered-content">
                             <div>
@@ -125,7 +125,7 @@
                         </div>
                     </li>
                 </ul>
-                <ul class="column-xs-6 pages">
+                <ul class="column-6 pages">
                     <li class="onglet"><a href="#" title="Onglet">ACCUEIL</a>
                     </li>
                     <li class="onglet"><a href="#" title="Onglet">HTML</a>

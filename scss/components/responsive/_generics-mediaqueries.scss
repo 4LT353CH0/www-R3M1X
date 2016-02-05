@@ -1,10 +1,9 @@
 // Generics mediaqueries
 
 //Display or not
-@media (min-width: 0px) {
-  .xs-show{display: block;}
-  .xs-hide{display: none;}
-}
+  .show{display: block;}
+  .hide{display: none;}
+
 @media (min-width: 768px) {
   .sm-show{display: block;}
   .sm-hide{display: none;}
