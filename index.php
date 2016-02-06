@@ -2,13 +2,13 @@
 <!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
 <!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!-->
-<html class="">
+<html class="" lang="fr">
 <!--<![endif]-->
 
 <head>
     <meta charset="utf-8">
 
-    <title>Bienvenue chez R3M1X - ACCUEIL</title>
+    <title>ACCUEIL</title>
 
     <meta name="description" content="">
     <meta name="robots" content="noindex,nofollow">
@@ -52,221 +52,306 @@
     <!--Microformats here @ http://microformats.org/wiki/Main_Page-->
     <!-- HEAD.JS -->
     <script src="js/plugins/min/head.load-min.js" data-headjs-load="js/min/scripts-min.js"></script>
+
 </head>
 
-<body class="fontLight">
-    <!--[if lt IE 7]><p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
-    <!--	loader-->
-    <div class="overlayall hide">
-        <div id="loader"></div>
-    </div>
-    <!--Déut page-->
-    <header class="container-fluid star">
-        <!-- inscription mobile-->
-        <ul class="inscription row">
-            <li class="column-6 column-sm-8 column-md-6">
-                <div class="centered-content">
-                    <div>
-                        <h1><a href="#" title="Revenir à la page d'accueil">Ce site est concue pour veiller sur la l’évolution du web et partager ces d’idées entre collègues, nous vous souhaitons bienvenue chez [SITE WEB]</a></h1>
-                    </div>
-                </div>
-            </li>
-            <li class="column-md-4 xs-hide md-show saviezvous">
-                <div class="centered-content">
-                    <div>
-                        <h2><a href="#" title="Inscrivez-vous pour participer à l'évolution de ce blog & enrichissez vos compétences de la création site web">Saviez-vous que vous pourriez participer à ce blog communautaire?</a></h2>
-                    </div>
-                </div>
-            </li>
-            <li class="column-6 login fontMedium column-sm-4 column-md-2">
-                <div class="centered-content">
-                    <div>
-                        <h3><a href="#" title="Les membres futurs, inscrivez-vous/login">Inscrivez-vous / Login</a></h3> 
-                    </div>
-                </div>
-            </li>
-        </ul>
-        <!-- menu mobile-->
-        <nav class="xs-show md-hide">
-            <ul class="menu row">
-                <li class="column-4 column-sm-7">
-                    <aside class="centered-content">
-                        <div>
-                            <a href="#" title="À la rencontre du webmestre">
-                                <h2><span><img src="medias/images/bitmaps/logos/logo-jhdwp-sprite.png" alt="Jarl HELIN Design Web Print"><img src="medias/images/bitmaps/logos/logo-jhdwp-sprite.png" alt="Jarl HELIN Design Web Print"></span></h2>
-                                <p>JHDWP.FR</p>
-                            </a>
-                        </div>
-                    </aside>
-                </li>
-                <li class="column-6 column-sm-4">
-                    <h3 class="centered-content">
-                      <div>
-                     <a class="button" href="#" title="Contactez-nous pour plus d'information">CONTACTEZ-NOUS</a>
-                     </div>
-                   </h3>
-                </li>
-                <li class="column-2 column-sm-1">
-                    <div class="centered-content">
-                        <div>
-                            <span class="fi-list icon"></span>
+<body><!--[if lt IE 7]><p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+	<header>
+		<h1>Header</h1>
+	</header>
+	<h2>Responsive grid</h2>
+	<section class="container first">
+		<h3>Default Mobile First</h3>
+		<h4>Default Mobile First</h4>
+		<h5>Default Mobile First</h5>
+		<h6>Default Mobile First</h6>
+		<div class="row"><!--row-->
+			<div class="column column-xs-1">.col-xs-1</div>
+			<div class="column column-xs-1">.col-xs-1</div>
+			<div class="column column-xs-1">.col-1</div>
+			<div class="column column-xs-1">.col-1</div>
+			<div class="column column-xs-1">.col-1</div>
+			<div class="column column-xs-1">.col-1</div>
+			<div class="column column-xs-1">.col-1</div>
+			<div class="column column-xs-1">.col-1</div>
+			<div class="column column-xs-1">.col-1</div>
+			<div class="column column-xs-1">.col-1</div>
+			<div class="column column-xs-1">.col-1</div>
+			<div class="column column-xs-1">.col-1</div>
+		</div>
+		<div class="row"><!--row-->
+			<div class="column column-xs-8">.col-8</div>
+			<div class="column column-xs-4">.col-4</div>
+		</div>
+		<div class="row"><!--row-->
+			<div class="column column-xs-4">.col-4</div>
+			<div class="column column-xs-4">.col-4</div>
+			<div class="column column-xs-4">.col-4</div>
+		</div>
+		<div class="row"><!--row-->
+			<div class="column column-xs-6">.col-6</div>
+			<div class="column column-xs-6">.col-6</div>
+		</div>
+	</section><!--container-->
+	<section class="container second">
+		<h3>min-width 768</h3>
+		<h4>min-width 768</h4>
+		<h5>min-width 768</h5>
+		<h6>min-width 768</h6>
+		<div class="row"><!--row-->
+			<div class="column column-sm-1">.col-sm-1</div>
+			<div class="column column-sm-1">.col-sm-1</div>
+			<div class="column column-sm-1">.col-sm-1</div>
+			<div class="column column-sm-1">.col-sm-1</div>
+			<div class="column column-sm-1">.col-sm-1</div>
+			<div class="column column-sm-1">.col-sm-1</div>
+			<div class="column column-sm-1">.col-sm-1</div>
+			<div class="column column-sm-1">.col-sm-1</div>
+			<div class="column column-sm-1">.col-sm-1</div>
+			<div class="column column-sm-1">.col-sm-1</div>
+			<div class="column column-sm-1">.col-sm-1</div>
+			<div class="column column-sm-1">.col-sm-1</div>
+		</div>
+		<div class="row"><!--row-->
+			<div class="column column-sm-8">.col-sm-8</div>
+			<div class="column column-sm-4">.col-sm-4</div>
+		</div>
+		<div class="row"><!--row-->
+			<div class="column column-sm-4">.col-sm-4</div>
+			<div class="column column-sm-4">.col-sm-4</div>
+			<div class="column column-sm-4">.col-sm-4</div>
+		</div>
+		<div class="row"><!--row-->
+			<div class="column column-md-6">.col-md-6</div>
+			<div class="column column-md-6">.col-md-6</div>
+		</div>
+	</section><!--container-->
+	<section class="container third">
+		<h3>min-width 992</h3>
+		<h4>min-width 992</h4>
+		<h5>min-width 992</h5>
+		<h6>min-width 992</h6>
+		<div class="row"><!--row-->
+			<div class="column column-md-1">.col-md-1</div>
+			<div class="column column-md-1">.col-md-1</div>
+			<div class="column column-md-1">.col-md-1</div>
+			<div class="column column-md-1">.col-md-1</div>
+			<div class="column column-md-1">.col-md-1</div>
+			<div class="column column-md-1">.col-md-1</div>
+			<div class="column column-md-1">.col-md-1</div>
+			<div class="column column-md-1">.col-md-1</div>
+			<div class="column column-md-1">.col-md-1</div>
+			<div class="column column-md-1">.col-md-1</div>
+			<div class="column column-md-1">.col-md-1</div>
+			<div class="column column-md-1">.col-md-1</div>
+		</div>
+		<div class="row">
+			<div class="column column-md-8">.col-md-8</div>
+			<div class="column-md-4">.col-md-4</div>
+		</div>
+		<div class="row">
+			<div class="column column-md-4">.col-md-4</div>
+			<div class="column column-md-4">.col-md-4</div>
+			<div class="column column-md-4">.col-md-4</div>
+		</div>
+		<div class="row">
+			<div class="column column-md-6">.col-md-6</div>
+			<div class="column column-md-6">.col-md-6</div>
+		</div>
+	</section><!--container-->
+	<section class="container fourth">
+		<h3>min-width 1200</h3>
+		<h4>min-width 1200</h4>
+		<h5>min-width 1200</h5>
+		<h6>min-width 1200</h6>
+		<div class="row"><!--row-->
+			<div class="column column-lg-1">.col-lg-1</div>
+			<div class="column column-lg-1">.col-lg-1</div>
+			<div class="column column-lg-1">.col-lg-1</div>
+			<div class="column column-lg-1">.col-lg-1</div>
+			<div class="column column-lg-1">.col-lg-1</div>
+			<div class="column column-lg-1">.col-lg-1</div>
+			<div class="column column-lg-1">.col-lg-1</div>
+			<div class="column column-lg-1">.col-lg-1</div>
+			<div class="column column-lg-1">.col-lg-1</div>
+			<div class="column column-lg-1">.col-lg-1</div>
+			<div class="column column-lg-1">.col-lg-1</div>
+			<div class="column column-lg-1">.col-lg-1</div>
+		</div>
+		<div class="row">
+			<div class="column column-lg-8">.col-lg-8</div>
+			<div class="column column-lg-4">.col-lg-4</div>
+		</div>
+		<div class="row">
+			<div class="column column-lg-4">.col-lg-4</div>
+			<div class="column column-lg-4">.col-lg-4</div>
+			<div class="column column-lg-4">.col-lg-4</div>
+		</div>
+		<div class="row">
+			<div class="column column-lg-6">.col-lg-6</div>
+			<div class="column column-lg-6">.col-lg-6</div>
+		</div>
+	</section><!--container-->
+	<section class="container fifth">
+		<h3>min-width 1600</h3>
+		<h4>min-width 1600</h4>
+		<h5>min-width 1600</h5>
+		<h6>min-width 1600</h6>
+		<div class="row"><!--row-->
+			<div class="column column-xl-1">.col-xl-1</div>
+			<div class="column column-xl-1">.col-xl-1</div>
+			<div class="column column-xl-1">.col-xl-1</div>
+			<div class="column column-xl-1">.col-xl-1</div>
+			<div class="column column-xl-1">.col-xl-1</div>
+			<div class="column column-xl-1">.col-xl-1</div>
+			<div class="column column-xl-1">.col-xl-1</div>
+			<div class="column column-xl-1">.col-xl-1</div>
+			<div class="column column-xl-1">.col-xl-1</div>
+			<div class="column column-xl-1">.col-xl-1</div>
+			<div class="column column-xl-1">.col-xl-1</div>
+			<div class="column column-xl-1">.col-xl-1</div>
+		</div>
+		<div class="row">
+			<div class="column column-xl-8">.col-xl-8</div>
+			<div class="column column-xl-4">.col-xl-4</div>
+		</div>
+		<div class="row">
+			<div class="column column-xl-4">.col-xl-4</div>
+			<div class="column column-xl-4">.col-xl-4</div>
+			<div class="column column-xl-4">.col-xl-4</div>
+		</div>
+		<div class="row">
+			<div class="column column-xl-6">.col-xl-6</div>
+			<div class="column column-xl-6">.col-xl-6</div>
+		</div>
+	</section><!--container-->
+	<section class="container sixth">
+		<h3>min-width 1900</h3>
+		<h4>min-width 1900</h4>
+		<h5>min-width 1900</h5>
+		<h6>min-width 1900</h6>
+		<div class="row"><!--row-->
+			<div class="column column-xxl-1">.col-xxl-1</div>
+			<div class="column column-xxl-1">.col-xxl-1</div>
+			<div class="column column-xxl-1">.col-xxl-1</div>
+			<div class="column column-xxl-1">.col-xxl-1</div>
+			<div class="column column-xxl-1">.col-xxl-1</div>
+			<div class="column column-xxl-1">.col-xxl-1</div>
+			<div class="column column-xxl-1">.col-xxl-1</div>
+			<div class="column column-xxl-1">.col-xxl-1</div>
+			<div class="column column-xxl-1">.col-xxl-1</div>
+			<div class="column column-xxl-1">.col-xxl-1</div>
+			<div class="column column-xxl-1">.col-xxl-1</div>
+			<div class="column column-xxl-1">.col-xxl-1</div>
+		</div>
+		<div class="row">
+			<div class="column column-xxl-8">.col-xxl-8</div>
+			<div class="column column-xxl-4">.col-xxl-4</div>
+		</div>
+		<div class="row">
+			<div class="column column-xxl-4">.col-xxl-4</div>
+			<div class="column column-xxl-4">.col-xxl-4</div>
+			<div class="column column-xxl-4">.col-xxl-4</div>
+		</div>
+		<div class="row">
+			<div class="column column-xxl-6">.col-xxl-6</div>
+			<div class="column column-xxl-6">.col-xxl-6</div>
+		</div>
+	</section><!--container-->
+	<section class="container seventh">
+		<h3>min-width 2200</h3>
+		<h4>min-width 2200</h4>
+		<h5>min-width 2200</h5>
+		<h6>min-width 2200</h6>
+		<div class="row"><!--row-->
+			<div class="column column-tv-1">.col-tv-1</div>
+			<div class="column column-tv-1">.col-tv-1</div>
+			<div class="column column-tv-1">.col-tv-1</div>
+			<div class="column column-tv-1">.col-tv-1</div>
+			<div class="column column-tv-1">.col-tv-1</div>
+			<div class="column column-tv-1">.col-tv-1</div>
+			<div class="column column-tv-1">.col-tv-1</div>
+			<div class="column column-tv-1">.col-tv-1</div>
+			<div class="column column-tv-1">.col-tv-1</div>
+			<div class="column column-tv-1">.col-tv-1</div>
+			<div class="column column-tv-1">.col-tv-1</div>
+			<div class="column column-tv-1">.col-tv-1</div>
+		</div>
+		<div class="row">
+			<div class="column column-tv-8">.col-tv-8</div>
+			<div class="column column-tv-4">.col-tv-4</div>
+		</div>
+		<div class="row">
+			<div class="column column-tv-4">.col-tv-4</div>
+			<div class="column column-tv-4">.col-tv-4</div>
+			<div class="column column-tv-4">.col-tv-4</div>
+		</div>
+		<div class="row">
+			<div class="column column-tv-6">.col-tv-6</div>
+			<div class="column column-tv-6">.col-tv-6</div>
+		</div>
+	</section><!--container-->
+	<h2>Components</h2>
+	<article class="container">
+		<ul class="row">
+			<li class="column column-4 column-sm-4 column-md-4 column-lg-4 column-xl-4 column-xxl-4 column-tv-4">
+				<ul class="row">
+					<li class="column column-xs-12"><h3>Shapes</h3></li>
+					<li class="column column-xs-12"><h4>Triangles</h4></li>
+					<li class="column column-xs-12"><div class="triangle-down"></div></li>
+					<li class="column column-xs-12"><div class="triangle-left"></div></li>
+					<li class="column column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><div class="triangle-right"></div></li>
+					<li class="column column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><div class="triangle-up"></div></li>
+					<li class="column column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><div class="triangle-bottom-right"></div></li>
+					<li class="column column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><div class="triangle-bottom-left"></div></li>
+					<li class="column column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><div class="triangle-top-left"></div></li>
+					<li class="column column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><div class="triangle-top-right"></div></li>
+				</ul>
+			</li>
+			<li class="column column-xs-4 column-sm-4 column-md-4 column-lg-4 column-xl-4 column-xxl-4 column-tv-4">
+				<ul class="row">
+					<li class="column column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><h3>Shapes</h3></li>
+					<li class="column column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><h4>Foursides</h4></li>
+					<li class="column column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12">
+						<div class='square-box'>
+							<div class='square-content'><div><span>I'm a responsive CSS square with centered content!</span></div></div>
+						</div>
+					</li>
+					<li class="column column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12">
+						<div class='rectangle-box'>
+							<div class='rectangle-content'><div><span>I'm a responsive CSS rectangle! Resize the window to see how I keep my aspect ratio.</span></div></div>
+						</div>
+					</li>
+				</ul>
+			</li>
+			<li class="column column-xs-4 column-sm-4 column-md-4 column-lg-4 column-xl-4 column-xxl-4 column-tv-4">
+				<ul class="row">
+					<li class="column column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><h3>Shapes</h3></li>
+					<li class="column column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12"><h4>Circles</h4></li>
+					<li class="column column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12">
+						<div class="circle-text">
+							<div><span>I'm a Circle!</span></div>
+						</div>
+					</li>
+					<li class="column column-xs-12 column-sm-12 column-md-12 column-lg-12 column-xl-12 column-xxl-12 column-tv-12">
+						<div class="oval-text">
+							<div><span>I'm an Oval!</span></div>
+						</div>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</article>
+	<footer>
+		<h1>Footer</h1>
+	</footer>
+	<script src="js/min/contribs/jquery-1.10.2.min.js"></script>
+	<script src="js/min/scripts-min.js"></script>
+	<!--[if lt IE 9]>
+	<script src="js/min/contribs/PIE-min.js"></script>
+    	<script src="js/min/contribs/rem-min.js"></script>
+    	<![endif]-->
+    	<script src="js/min/functions-min.js"></script>
 
-                        </div>
-                    </div>
-                </li>
-            </ul>
-            <div class="navigation row">
-                <ul class="close column-3 column-sm-1">
-                    <li>
-                        <div class="centered-content">
-                            <div>
-                                <span class="fi-x icon"></span>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-                <ul class="column-6 pages">
-                    <li class="onglet"><a href="#" title="Onglet">ACCUEIL</a>
-                    </li>
-                    <li class="onglet"><a href="#" title="Onglet">HTML</a>
-                    </li>
-                    <li class="onglet"><a href="#" title="Onglet">CSS</a>
-                    </li>
-                    <li class="onglet"><a href="#" title="Onglet">JAVASCRIPT</a>
-                    </li>
-                    <li class="onglet"><a href="#" title="Onglet">WORDPRESS</a>
-                    </li>
-                    <li class="onglet"><a href="#" title="Onglet">GEEKTASTIQUE</a>
-                    </li>
-                    <li class="onglet"><a href="#" title="Onglet">ONGLET</a>
-                    </li>
-                    <li class="onglet"><a href="#" title="Onglet">ONGLET</a>
-                    </li>
-                    <li>
-                        <form action="#">
-                            <label>CHERCHER
-                                <div class="row">
-                                    <input type="text">
-                                    <input type="submit" value="" class="icon" title="ENVOYER">
-                                </div>
-                            </label>
-
-                        </form>
-                    </li>
-                    <li>
-                        <ul class="liens">
-                            <li><a href="#" title="lien">monlienpartisan.fr</a>
-                            </li>
-                            <li><a href="#" title="lien">monliensympapartisan.fr</a>
-                            </li>
-                            <li><a href="#" title="lien">monliensympapartisan.fr</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <!-- menu desktop-->
-        <nav class="xs-hide md-show desktop">
-            <ul class="menu row">
-                <li class="column-md-2">
-                    <aside class="centered-content">
-                        <div>
-                            <a href="#" title="À la rencontre du webmestre">
-                                <h2><span><img src="medias/images/bitmaps/logos/logo-jhdwp-sprite.png" alt="Jarl HELIN Design Web Print"><img src="medias/images/bitmaps/logos/logo-jhdwp-sprite.png" alt="Jarl HELIN Design Web Print"></span></h2>
-                                <p>JHDWP.FR</p>
-                            </a>
-                        </div>
-                    </aside>
-                </li>
-                <li class="onglet left">
-                    <div class="centered-content">
-                        <div>
-                            <a class="button" href="#" title="Contactez-nous pour plus d'information">ACCUEIL</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="onglet left">
-                    <div class="centered-content">
-                        <div>
-                            <a class="button" href="#" title="Contactez-nous pour plus d'information">HTML</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="onglet left">
-                    <div class="centered-content">
-                        <div>
-                            <a class="button" href="#" title="Contactez-nous pour plus d'information">CSS</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="onglet left">
-                    <div class="centered-content">
-                        <div>
-                            <a class="button" href="#" title="Contactez-nous pour plus d'information">JAVASCRIPT</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="onglet left">
-                    <div class="centered-content">
-                        <div>
-                            <a class="button" href="#" title="Contactez-nous pour plus d'information">WORDPRESS</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="onglet left">
-                    <div class="centered-content">
-                        <div>
-                            <a class="button" href="#" title="Contactez-nous pour plus d'information">GEEKTASTIQUE</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="column-md-2 searchform">
-                    <div class="centered-content">
-                        <div>
-                            <span>
-                            <form action="#">
-                            <label>
-                                <div class="row">
-                                    <input type="text">
-                                    <input type="submit" value="" class="icon" title="ENVOYER">
-                                </div>
-                              </label>
-                        </form>
-                          </span>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <section class="container hero">
-        <article>
-            <ul class="geektastique">
-                <li class="item1 newsBtn">
-                    <div class="covered">
-                        lorem
-                    </div>
-                    <div class="cover">
-                        <h2>
-              LES TITRES
-            </h2>
-                        <div class="rounded">
-                            <img src="#" alt="background">
-                            <img src="#" alt="icon">
-                            <img src="#" alt="shader">
-                        </div>
-                    </div>
-                </li>
-                <li class="item2"></li>
-                <li class="item3"></li>
-                <li class="item4"></li>
-                <li class="item5"></li>
-                <li class="item6"></li>
-            </ul>
-        </article>
-    </section>
-
-</body>
-
-</html>
+    </body>
+    </html>

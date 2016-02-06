@@ -1,0 +1,19 @@
+{
+  "extensions": {
+    "brackets.swatcher": true,
+    "aem-sightly-brackets-extension": true,
+    "mikaeljorhult.brackets-autoprefixer": true,
+    "brackets-beautify": true,
+    "hirse.outline-list": true,
+    "brackets-wp-functions-hint": true,
+    "brackets-emmet": true,
+    "milosh86.extensions-bulk-installer": false,
+    "camden.htmlhint": true,
+    "jquinter": true,
+    "new-moon": true,
+    "os-x-style-dark-theme": true,
+    "brackets-php-syntax-hint": true,
+    "denisov21.pop-up-menu-extension": true,
+    "violet-dark-theme": true
+  }
+}

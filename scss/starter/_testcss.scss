@@ -8,7 +8,8 @@ header, footer{background-color: $silver;color: $gray;text-align:center;}
 .overlayed *{padding:1rem;}
 .overlayed .first{display:block;}
 @media (min-width: 768px) {
-    .overlayed .first{display:none;}
+    .overlayed .first{ 
+    }
     .overlayed .second{display:block;}
     .overlayed .third{display:none;}
     .overlayed .fourth{display:none;}
@@ -61,6 +62,9 @@ header, footer{background-color: $silver;color: $gray;text-align:center;}
     .overlayed .fifth{display:none;}
     .overlayed .sixth{display:none;}
     .overlayed .seventh{display:block;}
+}
+.column div{
+    background: #222;
 }
 body{
     .first {background-color: $lime;color:$olive;padding-top:15px;padding-bottom:15px;display:block;
